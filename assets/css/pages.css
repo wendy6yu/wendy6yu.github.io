@@ -1,0 +1,146 @@
+body {
+    background-color: white !important;
+}
+
+.menu {
+    margin-top: 1%;
+    letter-spacing: 0em;
+}
+
+h1 {
+    font-size: 18px;
+    letter-spacing: 0em;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.pavilion .text {
+    color: black;
+    font-size: 15px;
+    padding-top: 3%;
+    padding-left: 2%;
+    padding-right: 5%;
+    overflow: scroll;
+}
+
+.chair .text {
+    color: black;
+    font-size: 15px;
+    padding-top: 12%;
+    padding-left: 1%;
+    padding-right: 7%;
+    overflow: scroll;
+}
+
+.neo .text {
+    color: black;
+    font-size: 15px;
+    padding-top: 8.5%;
+    padding-left: 1%;
+    padding-right: 7%;
+    overflow: scroll;
+}
+
+.vivace .text {
+    color: black;
+    font-size: 15px;
+    padding-top: 13%;
+    padding-left: 1%;
+    padding-right: 7%;
+    overflow: scroll;
+}
+
+.stranger .text {
+    color: black;
+    font-size: 15px;
+    padding-top: 15%;
+    padding-left: 1%;
+    padding-right: 7%;
+    overflow: scroll;
+}
+
+.self .text {
+    color: black;
+    font-size: 15px;
+    padding-top: 9%;
+    padding-left: 1%;
+    padding-right: 7%;
+}
+
+#carousel1 img {
+    width: 95%;
+}
+
+#carousel1 {
+    margin-top: 13%;
+    margin-left: 4%;
+}
+
+#carousel2 img,
+#carousel3 img,
+#carousel4 img,
+#carousel6 img{
+    width: 80%;
+}
+
+#carousel2, #carousel3,
+#carousel4, #carousel6 {
+    margin-top: 2%;
+    margin-left: 12%;
+}
+
+#carousel5 img {
+    width: 80%;
+}
+
+#carousel5 {
+    margin-top: 5%;
+    margin-left: 10%;
+}
+    
+.left.carousel-control{
+    margin-top: 63%;
+    margin-left: 85%;
+}
+
+.right.carousel-control{
+    margin-top: 66%;
+    margin-left: 1%;
+}
+
+.glyphicon {
+    height: 12px;
+    width: auto;
+}
+
+.carousel-indicators{
+    font-size: 2em;
+    bottom: -1%;
+    visibility: hidden;
+}
+
+.carousel-control{
+  background: none !important;
+  filter: none !important;
+  color: black;
+}
+
+.carousel.vertical .item {
+    -webkit-transition: 0.6s ease-in-out top;
+    -moz-transition:    0.6s ease-in-out top;
+    -ms-transition:     0.6s ease-in-out top;
+    -o-transition:      0.6s ease-in-out top;
+    transition:         0.6s ease-in-out top;
+    left:               0;
+}
+
+.carousel.vertical .active,
+.carousel.vertical .next.left,
+.carousel.vertical .prev.right { top: 0; }
+
+.carousel.vertical .next,
+.carousel.vertical .active.right { top:  100%; }
+
+.carousel.vertical .prev,
+.carousel.vertical .active.left { top: -100%; }        
+
+
