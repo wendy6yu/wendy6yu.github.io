@@ -7,12 +7,6 @@ body {
     letter-spacing: 0em;
 }
 
-h1 {
-    font-size: 2.5vh;
-    letter-spacing: 0em;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
-}
-
 .col-md-8 {
     height: 100vh;
     display: flex;
@@ -32,9 +26,15 @@ h1 {
 .page-text {
     margin: 0;
     color: black;
-    font-size: 2.1vh;
+    font-size: 2vh;
     padding-left: .1vw;
-    padding-right: 4.4vw;
+    padding-right: 5vw;
+}
+
+h1 {
+    font-size: 2.5vh;
+    letter-spacing: 0em;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
 }
 
 
@@ -52,12 +52,12 @@ h1 {
 #carousel3 img,
 #carousel4 img,
 #carousel6 img{
-    width: 80%;
+    width: 83%;
 }
 
 #carousel2, #carousel3,
 #carousel4, #carousel6 {
-    margin-left: 6vw;
+    margin-left: 9vw;
 }
 
 #carousel5 img {

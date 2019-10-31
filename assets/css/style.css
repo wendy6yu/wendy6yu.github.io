@@ -10,18 +10,8 @@ a:link, a:hover, a:visited {
 	text-decoration: none;
 }
 
-.text {
-	font-size: 12.5px;
-	line-height: 25px;
-	padding: 0 40px 0 160px;
-	text-align: left;
-	/*color: rgba(66, 70, 71, 0.76);*/
-	color: #0d1927;
-}
-
 .pictures {
 	margin: 28.6% 3% 5% 31%;
-	/* margin: -5% 3% 5% 31%; */
 }
 
 .pictures .col-md-4 {
@@ -79,9 +69,9 @@ a:link, a:hover, a:visited {
 	background: black;
 }
 
-.title {
+.title{
 	color: white;
-	font-size: 16px;
+	font-size: 1.2vw;
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	letter-spacing: .1rem;
 	font-weight: 800;
@@ -95,9 +85,10 @@ a:link, a:hover, a:visited {
 	text-align: center;
 }
 
+
 .photos .title {
 	color: white;
-	font-size: 16px;
+	font-size: 1.2vw;
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	letter-spacing: .1rem;
 	font-weight: 800;
@@ -112,8 +103,8 @@ a:link, a:hover, a:visited {
 }
 
 .category {
-	font-size: 12px;
-	font-weight: 700;
+	font-size: .9vw;
+	font-weight: 600;
 }
 
 .col-md-4:hover .title {
@@ -122,14 +113,14 @@ a:link, a:hover, a:visited {
 
 /*ABOUT*/
 .about {
-	margin: 0% 3% 0% 25%;
+	margin: 0 2.5vw 0 27vw;
 	color: black;
-	font-size: 14px;
+	font-size: 1.9vh;
 	text-align: justify;
 }
 
 .about .col-md-4{
-	padding-left: 5%;
-	padding-right: 3%;
+	padding-left: 3.5vw;
+	padding-right: 2vw;
 }
 
