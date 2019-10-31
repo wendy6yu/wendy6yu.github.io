@@ -1,6 +1,6 @@
 html, body {
 	height:100%;
-	overflow: scroll;
+	/* overflow: scroll; */
 	position: absolute;
 	/* background-color: #f8f2f2 !important; */
 }
