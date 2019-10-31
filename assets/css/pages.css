@@ -52,12 +52,12 @@ h1 {
 #carousel3 img,
 #carousel4 img,
 #carousel6 img{
-    width: 45vw;
+    width: 43vw;
 }
 
 #carousel2, #carousel3,
 #carousel4, #carousel6 {
-    margin-left: 10vw;
+    margin-left: 12vw;
 }
 
 #carousel5 img {
