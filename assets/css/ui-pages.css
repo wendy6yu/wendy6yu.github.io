@@ -26,7 +26,7 @@ a:link, a:hover, a:visited {
     /* overflow-x: hidden;  */
 	padding-top: 2.5%;
 	padding-left: 4%;
-	color:  #2e2b37;
+    color:  #2e2b37;
 }
 
 a:hover, a:active {
@@ -40,8 +40,9 @@ a:hover, a:active {
 }
 
 .yelp .menu{
-    font-size: 1.175em;
+    font-size: 1.5vw;
 }
+
 .yelp .title {
     font-weight: 600;
     font-size: 2.8vw;
