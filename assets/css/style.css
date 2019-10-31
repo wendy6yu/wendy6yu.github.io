@@ -1,8 +1,12 @@
 html, body {
 	height:100%;
-	overflow: scroll;
+	overflow: auto;
 	position: absolute;
-	/* background-color: #f8f2f2 !important; */
+}
+
+::-webkit-scrollbar {
+    /* width: 0px; */
+    background: transparent; 
 }
 
 a:link, a:hover, a:visited {
