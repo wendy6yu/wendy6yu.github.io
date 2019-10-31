@@ -40,7 +40,7 @@ h1 {
 
 /* CAROUSEL */
 #carousel1 img {
-    width: 95%;
+    width: 58vw;
 }
 
 #carousel1 {
@@ -52,20 +52,20 @@ h1 {
 #carousel3 img,
 #carousel4 img,
 #carousel6 img{
-    width: 83%;
+    width: 45vw;
 }
 
 #carousel2, #carousel3,
 #carousel4, #carousel6 {
-    margin-left: 9vw;
+    margin-left: 10vw;
 }
 
 #carousel5 img {
-    width: 80%;
+    width: 45vw;
 }
 
 #carousel5 {
-    margin-left: 5.5vw;
+    margin-left: 9vw;
 }
     
 .left.carousel-control{
