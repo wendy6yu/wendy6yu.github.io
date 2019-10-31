@@ -13,14 +13,14 @@ h1 {
     font-family: "Source Sans Pro", Helvetica, sans-serif;
 }
 
-.pavilion .text {
+/* .pavilion .text {
     color: black;
     font-size: 15px;
     padding-top: 3%;
-    padding-left: 2%;
-    padding-right: 5%;
+    padding-left: 1%;
+    padding-right: 7%;
     overflow: scroll;
-}
+} */
 
 .chair .text {
     color: black;
@@ -66,13 +66,37 @@ h1 {
     padding-right: 7%;
 }
 
+.col-md-8 {
+    display: flex;
+    align-items: center;
+}
+
+.page-images {
+    margin: 0;
+}
+
+.col-md-4 {
+    display: flex;
+    align-items: center;
+}
+
+.page-text {
+    margin: 0;
+    color: black;
+    font-size: 2.1vh;
+    padding-left: .1vw;
+    padding-right: 4.4vw;
+    /* transform: translate(0, -25%); */
+}
+
+/* CAROUSEL */
 #carousel1 img {
     width: 95%;
 }
 
 #carousel1 {
-    margin-top: 13%;
-    margin-left: 4%;
+    margin-top: 11vh;
+    margin-left: 2vh;
 }
 
 #carousel2 img,
@@ -98,13 +122,13 @@ h1 {
 }
     
 .left.carousel-control{
-    margin-top: 63%;
-    margin-left: 85%;
+    margin-top: 71vh;
+    margin-left: 56.7vw;
 }
 
 .right.carousel-control{
-    margin-top: 66%;
-    margin-left: 1%;
+    margin-top: 75vh;
+    margin-left: 55vw;
 }
 
 .glyphicon {
