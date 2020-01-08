@@ -51,12 +51,17 @@ h1 {
 #carousel2 img,
 #carousel3 img,
 #carousel4 img,
-#carousel6 img{
+#carousel6 img,
+#carousel7 img,
+#carousel8 img,
+#carousel9 img{
     width: 43vw;
 }
 
 #carousel2, #carousel3,
-#carousel4, #carousel6 {
+#carousel4, #carousel6, 
+#carousel7, #carousel8,
+#carousel9 {
     margin-left: 12vw;
 }
 
