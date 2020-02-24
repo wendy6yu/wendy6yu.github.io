@@ -2,6 +2,7 @@ html, body {
 	height:100%;
 	overflow: auto;
 	position: absolute;
+	background-color: white;
 }
 
 ::-webkit-scrollbar {
@@ -61,11 +62,11 @@ a:link, a:hover, a:visited {
 }
 
 .col-md-4:hover .pic img {
-	opacity: .3;
+	opacity: .1;
 }
 
 .col-md-4:hover .pic{
-	background: black;
+	background: #f5632e;
 }
 
 .title{
