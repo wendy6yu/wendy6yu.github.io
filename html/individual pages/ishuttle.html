@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wendy Yu</title>
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/ui-pages.css">
+    <link rel="stylesheet" href="https://use.typekit.net/owp3zpp.css">
+</head>
+
+<body class="yelp">
+
+    <div class="menu">
+        <a href="/html/studio.html">back</a>
+    </div>
+
+    <div style="text-align: center">
+        <div class="title">iShuttle: Transforming the<br>Campus Transportation Experience</div>
+        <br><br>
+        <div class="entry-info">Date: February 2020<br>
+        Time Span: 2 weeks<br>
+        Type: Course Project<br>
+        Role[s]: Researcher, designer, and content writer<br>
+        Specific Contributions: Home page, search and<br>explore functions, and written content
+        </div>
+    </div>
+
+    <div class="text">As college students, the interface of a shuttle app is both familiar and relevant 
+        to us. The emotions, however, are often overwhelmingly negative - confusion, frustration, etc. 
+        Therefore, we embarked on a journey to redesign the shuttle tracker into one that was clear, 
+        engaging, and could transform the entire experience of using a shuttle into a positive one.
+
+
+        <div class="subtitle">Problem Statement</div>
+        To begin, we identified several major pain points that users experienced with the current [3] 
+        Harvard shuttle trackers. For clarity, we can divide these points into several categories: 
+        <ul class="bullets">
+            <li>1) A mismatch between expected shuttle arrival or performance and reality</li>
+            <li>2) The inability to determine correct routes given unfamiliarity with the shuttle system</li>
+            <li>3) The existence of an outdated, unappealing interface that is both difficult to navigate and 
+                which tends to bury features</li>
+            <li>4) A miscellaneous category of various features that we felt the shuttle tracker lacked</li></ul>
+        <br>
+        With regards to the first problem category, we realized that the largest frustration students 
+        encountered was that the shuttles were frequently off schedule and, more importantly, that the 
+        trackers did not effectively communicate the details of delays/early arrivals accurately, effectively 
+        rendering the tracking app useless. It was therefore extremely important for us to maintain an accurate 
+        stream of communication system between students and our app.<br>
+        <br>
+        In terms of the second category, we realized that many students only used the shuttle occasionally, 
+        and were therefore unfamiliar with routes and stops. In these scenarios, the current trackers make it 
+        difficult to determine which of the routes and stops should be used in a itinerary. Given a 
+        student that might only know the starting and ending destinations of his/her journey, we needed our 
+        app to be able to easily help them explore the possibilities and determine which route and stops to use.<br> 
+        <br>
+        The third category is generally concerned with more superficial aspects of the apps; however, the 
+        current trackers have such cluttered and unintuitive interfaces that it severely impedes the use of 
+        the actual functions. Features are hidden in long lists, users often need to click through too 
+        many screens to reach their goal, routes blend together, and it can be difficult if not impossible to 
+        determine the direction of the shuttle along the route. <br>
+        <br>
+        Finally, we also realized that the current tracking apps were missing several important features. 
+        The existing apps are not accessible for color-impaired users, which on average is experienced by 1 
+        in 12 men and 1 in 200 women. Additionally, certain resources such as campus evening vans are not 
+        found in these apps, despite their essential role in maintaining campus safety. <br>
+        <br>
+        As a point of comparison for the redesigned product, we've included a usage video of Harvard Mobile below:<br><br>
+        <iframe src="https://player.vimeo.com/video/393223289" width="320" height="570" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+
+        <div class="subtitle">Users</div>
+        After sorting through the problems, it became clear that the shuttle needed to be designed with two 
+        different types of users in mind. The first group includes students who use shuttles regularly. 
+        These students generally know where they need to go, where they are leaving from, and which shuttle 
+        line to take. For this group, then, it is most important to have an app that tracks accurately with an 
+        interface that is clear and quick to navigate.<br>
+        <br>
+        The second group of users is composed of students who use the shuttle infrequently. They are 
+        unfamiliar with the shuttle lines, stops, and schedules, and therefore need the app to inform them 
+        how to navigate from point A to point B with as little input from them as possible.<br>
+        <br>
+        We then created a user journey map illustrating what an ideal flow would look like for a shuttle 
+        tracker:
+
+        <div class="img-container" style="text-align:center">
+            <img src="/iShuttle/UXJourney.jpg" style="width:100%; margin: 5vh 0 0 0">
+        </div>
+
+        <div class="subtitle">High Fidelity Prototype</div>
+        Finally, we created a high fidelity prototype using Figma.
+
+        <div class="sub-subtitle">Home Page</div>
+        To start, we reinvisioned the presentation of routes on the interface. As trackers are largely 
+        visual apps, we decided to design the map in grayscale to allow the colored routes to be more 
+        easily distinguishable. On the home screen, users can choose to view either all routes simultaneously 
+        or only their favorited routes, which accelerates the tracking process for regular shuttle users. 
+        Students can further filter routes by selecting one or more routes in the bottom panel. Upon selection, 
+        the live shuttles and the stops are shown. Users can then click on a stop to show corresponding details 
+        about arrival time. Because it can be frustrating for students to have to continuously check back on 
+        shuttle status, we also added a notification button for each stop which, if selected, can notify the 
+        student when the shuttle is near (students can edit the time frame for notifications in preferences). 
+        <br>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="/iShuttle/home.gif" style="width:70%; margin:5vh 4vw 5vh 3vw">
+                </div>
+                <div class="col-md-6">
+                    <img src="/iShuttle/crimsoncruiser.gif" style="width:70%; margin:5vh 2vw 5vh 5vw">
+                </div>
+            </div>
+        </div>
+
+        <div class="sub-subtitle">Search and Pin</div>
+        As mentioned earlier, the second major group of users is often unfamiliar with the shuttle routes, 
+        and therefore needs to be able to discover the correct route and stops easily using the app. To 
+        reach this goal, we designed two methods for the user. The first involves the search bar, through 
+        which a user can search for a route or stop, in which case the correct match will appear, or they 
+        can search for a specific address, in which case a pin will be dropped and nearby stops and routes 
+        will be shown. The other method involves finding the physical location of the destination on the map, 
+        and then double tapping to manually drop a pin. Similarly to above, the nearby routes and stops will 
+        be shown, and the user can then determine which options best fit his/her itinerary. 
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="/iShuttle/search.gif" style="width:70%; margin:5vh 4vw 5vh 3vw">
+                </div>
+                <div class="col-md-6">
+                    <img src="/iShuttle/pin.gif" style="width:70%; margin:5vh 2vw 5vh 5vw">
+                </div>
+            </div>
+        </div>
+
+        <div class="sub-subtitle" style="margin-top:0">Shuttle Calendar</div>
+        Another major feature we designed was the inclusion of a personal shuttle schedule. Users can 
+        import events that require the use of a shuttle from their personal calendars, in which case a 
+        shuttle event will automatically be generated with the best fit shuttle based on time, destination, 
+        and starting point. Otherwise, a user can also choose to manually enter a shuttle into their schedule. 
+        Once entered, users can choose to receive notifications for these shuttles near arrival time. 
+        
+        <div class="img-container" style="text-align:center">
+            <img src="/iShuttle/cal.gif" style="width:35%; margin:5vh auto">
+        </div>
+
+   
+        <div class="sub-subtitle" style="margin-top:0">Additional Features</div>
+        Finally, our team also included a number of miscellaneous features that we felt could substantially 
+        improve the app. The first change made here was to add an accessibility filter for color-impaired 
+        users. Textured lines and colors with wider variance are shown in the scenario that the filter is 
+        turned on to prevent confusion between close or overlapping lines. The other feature we added was 
+        the ability to easily schedule an evening van after a certain time in the evening. Campus evening 
+        vans are an important aspect of maintaining both actual and perceived safety, and we therefore felt 
+        that it was necessary to make this service much more easily accessible than it is in its current 
+        situation, where students must navigate to a separate website, find the number associated with evening 
+        vans, and call and schedule in real time for a van. Instead, our feature allows students to request 
+        a van directly through the app immediately and in advance to minimize evening waiting time. 
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="/iShuttle/eveningvan.gif" style="width:70%; margin:5vh 4vw 5vh 3vw">
+                </div>
+                <div class="col-md-6">
+                    <img src="/iShuttle/settings.gif" style="width:70%; margin:5vh 2vw 5vh 5vw">
+                </div>
+            </div>
+        </div>
+    
+
+        <br><div class="subtitle">Conclusion</div>
+        Through careful consideration of our users and their needs, we redesigned the existing shuttle 
+        tracker into an experience that is both easy and pleasurable to use. iShuttle engages users through 
+        its clean, efficient, and accurate interface and provides a number of additional features that 
+        transform the tracker into a tool fit for frequent, recurring use.
+        <br><br>
+        Of course, no product is ever free from the possibility (or perhaps inevitable fate?) of further 
+        improvement. We of course have a number of small details to figure out, as well as other additional 
+        features we'd like to see included. For one, we think that the communication between the users and
+        the app should absolutely be a two way street - in other words, we'd like the students to be able to 
+        give immediate and frequent feedback to the shuttle system to allow for constant improvement. We 
+        considered having a pop-up notification that would have the user thumbs up or down the shuttle depending
+        on its timeliness, but don't want to overburden users with notifications and are unsure about how to 
+        determine whether or not the user actually took the shuttle. 
+        <br><br>
+        It could also potentially be very cool to implement a more detailed feature instructing users on how 
+        to get from point A to B and the expected travel times for different routes. 
+        <br><br>
+        For now, however, having carefully considered our users their goals, we believe that our redesigned 
+        shuttle app has the potential to reverse the frustration associated with boarding a shuttle into 
+        a swift, painless, and even enjoyable experience. 
+        <br><br>
+        Thanks for reading!
+        <br><br><br><br><br>
+
+    </div>
+
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/popper.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -14,10 +14,6 @@ a:link, a:hover, a:visited {
 	text-decoration: none;
 }
 
-.pictures {
-	margin: 28.6% 3% 5% 31%;
-}
-
 .pictures .col-md-4 {
 	margin-bottom: 7.3%;
 }
@@ -40,7 +36,7 @@ a:link, a:hover, a:visited {
 }
 
 .pictures.photos {
-	margin: 65% 3% 5% 31%;
+	margin: 72% 3% 5% 28%;
 }
 
 .pictures.photos .col-md-4 {
@@ -75,9 +71,10 @@ a:link, a:hover, a:visited {
 .title{
 	color: white;
 	font-size: 1.2vw;
-	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	/* font-family: "Source Sans Pro", Helvetica, sans-serif; */
+	font-family: embury-text, serif;
 	letter-spacing: .1rem;
-	font-weight: 800;
+	font-weight: 200;
 	transition: .5s ease;
 	opacity: 0;
 	position: absolute;
@@ -92,9 +89,10 @@ a:link, a:hover, a:visited {
 .photos .title {
 	color: white;
 	font-size: 1.2vw;
-	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	/* font-family: "Source Sans Pro", Helvetica, sans-serif; */
+	font-family: embury-text, serif;
 	letter-spacing: .1rem;
-	font-weight: 800;
+	font-weight: 400;
 	transition: .5s ease;
 	opacity: 0;
 	position: absolute;
@@ -106,8 +104,8 @@ a:link, a:hover, a:visited {
 }
 
 .category {
-	font-size: .9vw;
-	font-weight: 600;
+	font-size: 1vw;
+	font-weight: 300;
 }
 
 .col-md-4:hover .title {
@@ -116,7 +114,7 @@ a:link, a:hover, a:visited {
 
 /*ABOUT*/
 .about {
-	margin: 0 2.5vw 0 27vw;
+	margin: 0 2.5vw 0 22vw;
 	color: black;
 	font-size: 1.9vh;
 	text-align: justify;

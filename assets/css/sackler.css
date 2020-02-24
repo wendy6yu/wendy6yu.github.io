@@ -1,0 +1,159 @@
+body {
+    font-family: embury-text, serif;
+    font-style: normal;
+    font-weight: 200;
+    background-color: black;
+}
+
+.menu {
+    width: 150px; 
+    position: fixed;
+    z-index: 12000;
+    top: 0; 
+    left: 0;
+	padding-top: 2.5%;
+	padding-left: 4%;
+    margin-top: 1%;
+    letter-spacing: 0em;
+}
+
+a:link{
+    color: #cfcfcf;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: inherit;
+}
+
+
+.menu a{
+    color:#cfcfcf;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 2.3vw;
+    line-height: 3.4vw;
+}
+
+a:hover, a:active {
+	text-decoration: line-through !important;
+    color: #cfcfcf;
+}
+
+.menu a:hover, .menu a:active {
+	text-decoration: line-through !important;
+    color: #cfcfcf;
+}
+
+h1 {
+    font-size: 1.5vw;
+    line-height: 1.8vw;
+    font-weight: 400;
+    color: #cfcfcf;
+}
+
+h2 {
+    font-size: 1vw;
+    line-height: 1.2vw;
+    font-weight: 400;
+    color: #cfcfcf;
+}
+
+p {
+    font-size: .9vw; 
+    line-height: 2vw;
+    font-weight: 200;
+    color: #cfcfcf;
+}
+
+.container-fluid{
+    margin: 15vh 0 0 25vw;
+    width: 70%;
+    height: 100%;
+}
+
+.col-md-10 {
+    align-items: center;
+}
+
+.page-images {
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    background: transparent; 
+}
+
+.names {
+    position: absolute;
+    margin: 0 auto;
+}
+
+.actions{
+	font-size: 1.2vw;
+	margin-right: 20%;
+	text-align: justify;
+}
+
+div.tooltip {
+	max-width: 200px;
+}
+
+
+
+
+/* CAROUSEL */
+#carousel11 img {
+    width: 40vw;
+}
+
+#carousel11 {
+    /* margin-top: 11vh; */
+    margin-left: 7vw;
+}
+    
+.left.carousel-control{
+    margin-top: 30vh;
+    margin-left: -2vw;
+}
+
+.right.carousel-control{
+    margin-top: 30vh;
+    margin-left: 0vw;
+}
+
+.glyphicon {
+    height: 12px;
+    width: auto;
+}
+
+.carousel-indicators{
+    font-size: 2em;
+    bottom: -1%;
+    visibility: hidden;
+}
+
+.carousel-control{
+  background: none !important;
+  filter: none !important;
+  color: black;
+}
+
+.carousel.vertical .item {
+    -webkit-transition: 0.6s ease-in-out top;
+    -moz-transition:    0.6s ease-in-out top;
+    -ms-transition:     0.6s ease-in-out top;
+    -o-transition:      0.6s ease-in-out top;
+    transition:         0.6s ease-in-out top;
+    left:               0;
+}
+
+.carousel.vertical .active,
+.carousel.vertical .next.left,
+.carousel.vertical .prev.right { top: 0; }
+
+.carousel.vertical .next,
+.carousel.vertical .active.right { top:  100%; }
+
+.carousel.vertical .prev,
+.carousel.vertical .active.left { top: -100%; }        
+
+
