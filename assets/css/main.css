@@ -43,13 +43,13 @@ a:hover, a:active {
     left: 0; */
     top: 5vw; 
     left: 75vw;
-	padding-top: 2.5%;
-	padding-left: 4%
+	padding-top: 2.7%;
+	padding-left: 3%
 }
 
 .sub-menu a{
     font-size: 1.2vw;
-    line-height: 1.5vw;
+    line-height: 1.4vw;
 }
 
 
