@@ -86,14 +86,16 @@ p {
 #carousel7 img,
 #carousel8 img,
 #carousel9 img,
-#carousel10 img{
+#carousel10 img,
+#carousel11 img{
     width: 43vw;
 }
 
 #carousel2, #carousel3,
 #carousel4, #carousel6, 
 #carousel7, #carousel8,
-#carousel9, #carousel10 {
+#carousel9, #carousel10,
+#carousel11 img {
     margin-left: 12vw;
 }
 
