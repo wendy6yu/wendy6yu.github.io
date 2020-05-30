@@ -87,7 +87,8 @@ p {
 #carousel8 img,
 #carousel9 img,
 #carousel10 img,
-#carousel11 img{
+#carousel11 img,
+#carousel12 img{
     width: 43vw;
 }
 
@@ -95,7 +96,7 @@ p {
 #carousel4, #carousel6, 
 #carousel7, #carousel8,
 #carousel9, #carousel10,
-#carousel11 img {
+#carousel11, #carousel12 {
     margin-left: 12vw;
 }
 
