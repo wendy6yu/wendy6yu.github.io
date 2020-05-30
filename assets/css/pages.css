@@ -71,12 +71,12 @@ p {
 
 /* CAROUSEL */
 #carousel1 img {
-    width: 58vw;
+    width: 50vw;
 }
 
 #carousel1 {
     /* margin-top: 11vh; */
-    margin-left: 1.5vw;
+    margin-left: 8vw;
 }
 
 #carousel2 img,

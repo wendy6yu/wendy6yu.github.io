@@ -109,7 +109,11 @@ p {
 }
 
 .link{
-    margin: 2vh 0;
+    margin: 2.5vh 0;
+}
+
+.link1{
+    margin: 1vh 0 2.5vh 0;
 }
 
 a:hover {
