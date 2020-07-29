@@ -33,8 +33,13 @@ a{
 }
 
 a:hover, a:active {
-	text-decoration: line-through !important;
+	text-decoration: none !important;
     color: inherit !important;
+    background-color: #f5632e;
+}
+
+.image a{
+    background-color: transparent;
 }
 
 .sub-menu {
