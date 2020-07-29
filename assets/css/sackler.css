@@ -33,14 +33,10 @@ a:link{
     line-height: 3.4vw;
 }
 
-a:hover, a:active {
-	text-decoration: line-through !important;
-    color: #cfcfcf;
-}
-
-.menu a:hover, .menu a:active {
-	text-decoration: line-through !important;
-    color: #cfcfcf;
+a:hover, .menu a:active {
+	text-decoration: none !important;
+    background-color: #f5632e;
+    color: black;
 }
 
 h1 {
