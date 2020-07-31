@@ -11,8 +11,9 @@
 		<meta name="google-site-verification" content="_XNtVFtsR1UiRiEBllE-hYrTPwupUFq8vuSW68AxCvY" />
 		<link rel="stylesheet" href="https://use.typekit.net/owp3zpp.css">
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link href="//db.onlinewebfonts.com/c/3958068da9870842af9998bb94b99cd8?family=Clearface" rel="stylesheet" type="text/css"/>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="assets/js/jquery.min.js"></script>		
+		<script src="assets/js/typed.js"></script>
 	</head>
 
 	<body>
@@ -27,12 +28,34 @@
 		<div class="text">
 			<h1>Hello, you've<br/>
 			reached <a href="html/about.html">Wendy</a>.</h1>
+			<p class="sorry">So sorry - I can't come to the phone right now because I <span id="typed"></span>.
+			</p>
+		</div>	
+	</div>
+
+	<script>
+		var typed = new Typed('#typed', {
+		  strings: ["fell into the Dezeen black hole", "am browsing Craigslist", 
+		  "am a little behind on studio work", "am thinking about how cool you are", 
+		  "am moving furniture around the house", "am vigorously chewing gum"],
+		  backSpeed: 10,
+		  typeSpeed: 40,
+		  shuffle: true,
+		  loop: true,
+		  smartBackspace: false,
+		  backDelay: 900
+		});
+	</script>
+
+	<!-- <div class="home">
+		<div class="text">
+			<h1>Hello, you've<br/>
+			reached <a href="html/about.html">Wendy</a>.</h1>
 			<p>Wendy is currently a junior at Harvard studying History of Art and Architecture.<br>
 				<a href="html/studio.html">Here</a>, you can find a few instances where Wendy attempts to document and tease<br>
 				out her thoughts through concrete projects. 
 			</p>
 		</div>	
-	</div>
-						
+	</div> -->	
 	</body>
 </html>
