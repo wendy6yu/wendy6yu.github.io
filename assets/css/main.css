@@ -80,6 +80,7 @@ a:hover, a:active {
     display: inline-block;
     display: flex;
     justify-content: center;
+    overflow-y:hidden;
 }
 
 .studio {
