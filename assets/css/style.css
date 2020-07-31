@@ -115,7 +115,7 @@ a:link, a:hover, a:visited {
 
 /*ABOUT*/
 .about {
-	margin: -7vh 2.5vw 0 22vw;
+	margin: -2vh 2.5vw 0 30vw;
 	color: black;
 	font-size: 1vw;
 	text-align: justify;
@@ -129,7 +129,9 @@ a:link, a:hover, a:visited {
 }
 
 .about .col-md-4{
-	padding-left: 5vw;
-	padding-right: 1vw;
+	padding-left: 3.8vw;
+	padding-right: 0vw;
 }
+
+
 
