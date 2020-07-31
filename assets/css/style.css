@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lora:wght@500&family=Noto+Sans+SC:wght@400;500&family=Open+Sans:wght@400;600&display=swap');
+
 html, body {
 	height:100%;
 	overflow: auto;
@@ -90,8 +92,7 @@ a:link, a:hover, a:visited {
 .photos .title {
 	color: white;
 	font-size: 1.2vw;
-	/* font-family: "Source Sans Pro", Helvetica, sans-serif; */
-	font-family: embury-text, serif;
+	font-family: "Archivo Black", sans-serif;
 	letter-spacing: .1rem;
 	font-weight: 400;
 	transition: .5s ease;
@@ -107,6 +108,7 @@ a:link, a:hover, a:visited {
 .category {
 	font-size: 1vw;
 	font-weight: 300;
+	font-family: embury-text, serif;
 }
 
 .col-md-4:hover .title {
@@ -122,7 +124,7 @@ a:link, a:hover, a:visited {
 }
 
 .about h1{
-	font-family: embury-text, serif;
+	font-family:'Archivo Black', sans-serif;
 	font-size: 1vw;
 	font-weight: 700;
 	line-height: 1vh;

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Noto+Sans+SC:wght@400;500&family=Open+Sans:wght@400;600&display=swap');
+
 body {
     font-family: embury-text, serif;
     font-style: normal;
@@ -15,6 +17,7 @@ body {
 	padding-left: 4%;
     margin-top: 1%;
     letter-spacing: 0em;
+    font-family:'Archivo Black', sans-serif;
 }
 
 a:link{

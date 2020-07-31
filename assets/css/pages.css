@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Noto+Sans+SC:wght@400;500&family=Open+Sans:wght@400;600&display=swap');
+
 body {
     font-family: embury-text, serif;
     font-style: normal;
@@ -23,12 +25,14 @@ h1 {
     font-size: 1.5vw;
     line-height: 2.5vw;
     font-weight: 400;
+    font-family:'Archivo Black', sans-serif;
 }
 
 p {
     font-size: 1vw; 
     line-height: 1.8vw;
     font-weight: 200;
+    text-align: justify;
 }
 
 
@@ -43,6 +47,7 @@ p {
 	padding-left: 4%;
     margin-top: 1%;
     letter-spacing: 0em;
+    font-family:'Archivo Black', sans-serif;
 }
 
 .col-md-8 {

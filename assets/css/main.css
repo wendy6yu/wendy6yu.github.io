@@ -1,5 +1,5 @@
 @import url(//db.onlinewebfonts.com/c/3958068da9870842af9998bb94b99cd8?family=Clearface);
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Noto+Sans+SC:wght@400;500&family=Open+Sans:wght@400;600&display=swap');
 
 *{
     -webkit-box-sizing: border-box;
@@ -9,8 +9,7 @@
   
 body {
     font-family: embury-text, serif;
-    /* font-family: "Libre Baskerville", serif; */
-    /* font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; ; */
+    /* font-family: 'Open Sans', sans-serif; */
     font-style: normal;
     font-weight: 300;
     background-color: white;
@@ -25,13 +24,15 @@ body {
     /* overflow-x: hidden;  */
 	padding-top: 2.5%;
     padding-left: 4%;
+    font-family:'Archivo Black', sans-serif;
 }
 
 a{
     color: black;
     text-decoration: none;
     font-weight: 300;
-    font-size: 2.3vw;
+    /* font-size: 2.3vw; */
+    font-size: 2vw;
     line-height: 3.4vw;
 }
 
@@ -54,7 +55,7 @@ a:hover, a:active {
     top: 5vw; 
     left: 75vw;
 	padding-top: 2.7%;
-	padding-left: 3%
+    padding-left: 3%;
 }
 
 .sub-menu a{
@@ -74,7 +75,7 @@ a:hover, a:active {
 
 .home{
     width: 50vw;
-    margin: 21vh auto;
+    margin: 23vh auto;
     padding-left: 5vw;
     display: inline-block;
     display: flex;
@@ -95,7 +96,7 @@ a:hover, a:active {
 }
 
 .sorry {
-    width: 37vw;
+    width: 40vw;
 }
 
 .about a{
@@ -104,8 +105,8 @@ a:hover, a:active {
 
 h1 {
     font-size: 5vw;
-    font-weight: 400;
-    /* font-family:'Archivo Black', sans-serif; */
+    font-weight: 00;
+    font-family:'Archivo Black', sans-serif;
 }
 
 p {
