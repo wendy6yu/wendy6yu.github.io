@@ -3,17 +3,16 @@
 @import url("https://fonts.googleapis.com/css?family=DM+Sans|Didact+Gothic|Noto+Sans+SC:700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700; 0,800; 1,300;1,400;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Noto+Sans+SC:wght@400;500&family=Open+Sans:wght@400;600&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Karla:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
 body {
     overflow: scroll;
-    /* font-family: 'DM Sans';
-    font-family: Helvetica, sans-serif; */
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Karla', sans-serif;
+    overflow-x: hidden;
 }
 
 i {
     color: black;
+    color: white;
 }
 
 a:link, a:hover, a:visited {
@@ -25,7 +24,7 @@ a:link, a:hover, a:visited {
     width: 175px; 
     position: fixed;
     z-index: 12000;
-    top: 0; /* Stay at the top */
+    top: 0;
     left: 0;
     /* overflow-x: hidden;  */
 	padding-top: 2.5%;
@@ -55,13 +54,15 @@ a:hover, a:active {
     font-size: 3vw;
     line-height: 7vh;
     text-align: center;
-    padding-top: 10vh;
+    padding-top: 18vh;
     color:black;
+    color: #ebebeb;
+    font-family: "Archivo Black", sans-serif;
 }
 
 .note {
     font-weight: 500;
-    font-size: 1.1vw;
+    font-size: 1.3vw;
     line-height: normal;
     text-align: center;
     padding-top: 2vh;
@@ -70,44 +71,44 @@ a:hover, a:active {
 #entry-info {
     display: inline-block;
     font-weight: 400;
-    font-size: 1.1vw;
+    font-size: 1.3vw;
     color:black;
-    line-height: 1.7;
+    line-height: 2;
     text-align: left;
-    /* transform: scale(1,.98); */
+    color: #ebebeb;
 }
 
 .text {
     font-weight: 400;
-    font-size: 1.2vw;
-    padding: 0vh 20vw;
+    font-size: 1.4vw;
+    padding: 0vh 13vw;
     color:black;
-    line-height: 1.7;
-    transform: scale(1,.98);
+    line-height: 4vh;
     text-align: justify;
+    color: #ebebeb;
 }
 
 .bullets {
-    font-weight: 600;
-    font-size: 1.1vw;
-    line-height: 3vh;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 3.7vh;
     margin: 3.5vh 14vw 3.5vh 8vw;
     list-style-type:none;
     transform: scale(1,.98);
 }
 
 .bullets-ee {
-    font-weight: 600;
-    font-size: 1.1vw;
-    line-height: 3vh;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 3.7vh;
     margin: 3.5vh 8vw 3.5vh 4vw;
     list-style-type:none;
 }
 
 .sub-bullets {
-    font-weight: 600;
-    font-size: 1.1vw;
-    line-height: 3vh;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 3.7vh;
     margin: 1vh 5vw 2vh 3vw;
     list-style-type:none;
 }
@@ -120,25 +121,35 @@ li {
     font-weight: 800;
     font-size: 1.6vw;
     line-height: normal;
-    margin: 5vh auto 1vh;
+    margin: 8vh auto 2vh;
     color:black;
+    color: #ebebeb;
 }
 
 .sub-subtitle {
     font-weight: 700;
     font-size: 1.4vw;
     line-height: normal;
-    margin: 5vh auto 1vh;
+    margin: 5vh auto 2vh;
     color:black;
+    color: #ebebeb;
 }
 
 .captions {
     font-weight: 300;
-    font-size: 1.1vw;
+    font-size: 1.2vw;
     line-height: normal;
     font-style: oblique;
-    color: white;
+    color: #ebebeb;
     padding-bottom: 5vh;
+}
+
+.entry{
+    transform: translate(20%, 0%);
+    background-color: black;
+    color: ebebeb;
+    width: 84%;
+    /* letter-spacing: .05vw; */
 }
 
 iframe {
