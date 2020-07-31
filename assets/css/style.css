@@ -44,7 +44,6 @@ a:link, a:hover, a:visited {
 	z-index: 10;
 	width: 85%;
 	height: 100%;
-	/* height: 350px; */
 	object-fit: cover;
 }
 
@@ -69,7 +68,7 @@ a:link, a:hover, a:visited {
 	color:black;
 	transform: translate(-8%, 0%);
 	-ms-transform: translate(-8%, 0%);
-	margin-bottom: 3vh;
+	margin-bottom: 2.8vh;
 	text-align: center;
 }
 
@@ -92,7 +91,7 @@ a:link, a:hover, a:visited {
 .category {
 	font-size: 1vw;
 	font-weight: 300;
-	font-family: embury-text, serif;
+	/* font-family: embury-text, serif; */
 }
 
 .col-md-4:hover .title {
@@ -118,6 +117,17 @@ a:link, a:hover, a:visited {
 	padding-left: 3.8vw;
 	padding-right: 0vw;
 }
+
+/* .copyright{
+	font-family: "Archivo Black", sans-serif;
+    color: rgba(109, 109, 109, 0.375);
+    position: absolute;
+    bottom: 2%;
+    left: 4%;
+	font-size: 1.5vh;
+	line-height: 2vh;
+    z-index: 10000;
+} */
 
 
 
