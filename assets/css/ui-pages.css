@@ -146,7 +146,7 @@ li {
 
 .entry{
     transform: translate(20%, 0%);
-    background-color: black;
+    background-color: #171717;
     color: ebebeb;
     width: 84%;
     /* letter-spacing: .05vw; */
