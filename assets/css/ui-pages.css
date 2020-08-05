@@ -77,7 +77,7 @@ a:hover, a:active {
 }
 
 .text {
-    padding: 0vh 13vw;
+    padding: 0vh 15vw;
 }
 
 .bullets {
@@ -113,8 +113,8 @@ li {
 
 .subtitle {
     font-weight: 800;
-    font-size: 1.6vw;
-    line-height: normal;
+    font-size: 1.7vw;
+    line-height: 4vh;
     color: #a3a3a3;
 }
 
@@ -142,11 +142,11 @@ li {
 }
 
 .left{
-    padding-left: 14vw;
+    padding-left: 16vw;
 }
 
 .right{
-    padding-right: 14vw;
+    padding-right: 16vw;
 }
 
 button{
