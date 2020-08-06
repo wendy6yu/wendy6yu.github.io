@@ -6,16 +6,17 @@ body {
     overflow: scroll;
     font-family: 'Karla', sans-serif;
     overflow-x: hidden;
-    background-color: #171717;
+    /* background-color: #171717; */
 }
 
 i {
-    /* color: black; */
-    color: white;
+    color: black;
+    /* color: white; */
 }
 
 a:link, a:hover, a:visited {
-	color: white;
+    color: white;
+    color: black;
 	text-decoration: none;
 }
 
@@ -29,6 +30,7 @@ a:link, a:hover, a:visited {
 	padding-left: 4%;
     font-style: normal;
     color: white;
+    color: black;
     text-decoration: none;
     font-weight: 300;
     font-size: 2.3vw;
@@ -48,14 +50,33 @@ a:hover, a:active {
 }
 
 .title {
-    font-weight: 800;
-    font-size: 3vw;
-    line-height: 7vh;
-    text-align: center;
+    text-align: left;
     padding-top: 18vh;
+    margin-left: 15vw;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 5vw;
+    line-height: 4vh;
     color:black;
-    color: #ebebeb;
+    /* color: #ebebeb; */
     font-family: "Archivo Black", sans-serif;
+}
+
+h2{
+    font-weight: 800;
+    font-size: 1.4vw;
+    line-height: 4vh;
+    margin: 5vh auto 2vh;
+    color:black;
+    /* color: #ebebeb; */
+}
+
+h3{
+    font-weight: 800;
+    font-size: 1.3vw;
+    color: #787878;
 }
 
 .note {
@@ -69,11 +90,11 @@ a:hover, a:active {
 
 .entry{
     font-weight: 400;
-    font-size: 1.3vw;
+    font-size: 1.4vw;
     color:black;
     line-height: 4vh;
     text-align: justify;
-    color: #ebebeb;
+    /* color: #ebebeb; */
 }
 
 .text {
@@ -82,17 +103,18 @@ a:hover, a:active {
 
 .bullets {
     font-weight: 400;
-    font-size: 1.3vw;
-    line-height: 3.2vh;
+    font-size: 1.4vw;
+    line-height: 4vh;
     margin: 3.5vh 0vw 1vh 0vw;
+    padding: 0;
     list-style-type:none;
-    text-align: left;
+    text-align: justify;
 }
 
 .bullets-ee {
     font-weight: 400;
-    font-size: 1.3vw;
-    line-height: 3.7vh;
+    font-size: 1.4vw;
+    line-height: 4vh;
     padding-left: 0;
     padding-top: 0;
     margin-top: 0;
@@ -115,16 +137,7 @@ li {
     font-weight: 800;
     font-size: 1.7vw;
     line-height: 4vh;
-    color: #a3a3a3;
-}
-
-.sub-subtitle {
-    font-weight: 700;
-    font-size: 1.4vw;
-    line-height: normal;
-    margin: 5vh auto 2vh;
-    color:black;
-    color: #ebebeb;
+    color: #787878;
 }
 
 .captions {
@@ -132,14 +145,19 @@ li {
     font-size: 1.2vw;
     line-height: normal;
     font-style: oblique;
-    color: #ebebeb;
+    /* color: #ebebeb; */
     padding-bottom: 5vh;
+}
+
+.img-container {
+    padding: 0vh 10vw;
 }
 
 .row{
     margin-top: 10vh;
     margin-bottom: 10vh;
 }
+
 
 .left{
     padding-left: 16vw;
@@ -148,6 +166,24 @@ li {
 .right{
     padding-right: 16vw;
 }
+
+
+.mockup.row{
+    padding:0;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    border-radius: 25px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.mockup .left{
+    padding-left: 5vw;
+}
+
+.mockup .right{
+    padding-right: 5vw;
+} 
 
 button{
     background-color: transparent;
@@ -164,7 +200,6 @@ button:hover {
 .content {
     display: none;
     overflow: hidden;
-    background-color: #171717;
 
   }
 
