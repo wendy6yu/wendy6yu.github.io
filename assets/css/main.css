@@ -138,7 +138,8 @@ p {
 }
 
 a:hover {
-    cursor: url(/img/mouse/mouse-01.png), auto;
+    /* cursor: url(/img/mouse/circle-mouse.png) 15 15, auto; */
+    cursor: url(/img/mouse/cursor-10.png) 10 10, auto;
 }
 
 .sub-menu a:hover{
