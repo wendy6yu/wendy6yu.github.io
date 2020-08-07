@@ -1,7 +1,7 @@
 @import url(fontawesome-all.min.css);
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700; 0,800; 1,300;1,400;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Noto+Sans+SC:wght@400;500&family=Open+Sans:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Karla:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
+
 body {
     overflow: scroll;
     font-family: 'Karla', sans-serif;
@@ -167,23 +167,45 @@ li {
     padding-right: 16vw;
 }
 
+.features{
+    margin-top: 12vh;
+    margin-bottom: 0;
+}
 
-.mockup.row{
-    padding:0;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+.left.description {
+    display: flex;
+    background-color:#f7eded;
+    margin-left: 14vw;
+    padding:10vh;
     border-radius: 25px;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    align-items: center;
+    margin-bottom: 5vh;
 }
 
-.mockup .left{
-    padding-left: 5vw;
+.left.mockup{
+    padding-left: 11vw;
+    margin-left: 5vw;
 }
 
-.mockup .right{
-    padding-right: 5vw;
+.right.description{
+    display: flex;
+    background-color:#f7eded;
+    margin-right: 11vw;
+    padding:10vh;
+    border-radius: 25px;
+    align-items: center;
+    margin-bottom: 5vh;
 } 
+
+.right.mockup{
+    padding-right: 11vw;
+}
+
+.calendar{
+    margin: 10vh 10vw;
+    border-radius: 25px;
+    background-color:#f7eded;
+}
 
 button{
     background-color: transparent;

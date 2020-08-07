@@ -116,122 +116,131 @@
                     Finally, we created a high fidelity prototype using Figma. The major features are described in detail below.
                 </div>
             </div>
-
-            <div class="text">
-                <h3>HOME PAGE</h3>
-                To start, we reinvisioned the presentation of routes on the interface.
+            <div class="features row">
+                <div class="col-md-4 left">
+                    <h3>Home Page</h3>
+                </div>
+                <div class="col-md-8 right">
+                    We first reinvisioned the presentation of routes on the interface.
+                </div>
             </div>
         
-            <div class="container-fluid">
-                <div class="mockup row" style="background-color:#FFDFA4">
-                    <div class="col-md-6 left">
-                         As trackers are largely 
-                        visual apps, we decided to design the map in grayscale to allow the colored routes to be more 
-                        easily distinguishable. On the home screen, users can choose to view either all routes simultaneously 
-                        or only their favorited routes, which accelerates the tracking process for regular shuttle users. 
-                        Students can further filter routes by selecting one or more routes in the bottom panel.
-                    </div>
-                    <div class="col-md-6 right" style="text-align:right;">
-                        <img src="/iShuttle/home.gif" style="width:60%; margin-right: 5vw;">
-                    </div>
+            <div class="row" style="align-content: center;">
+                <div class="col-md-5 left description">
+                        As trackers are largely 
+                    visual apps, we decided to design the map in grayscale to allow the colored routes to be more 
+                    easily distinguishable. On the home screen, users can choose to view either all routes simultaneously 
+                    or only their favorited routes, which accelerates the tracking process for regular shuttle users. 
+                    Students can further filter routes by selecting one or more routes in the bottom panel.
                 </div>
-
-                <div class="mockup row" style="background-color:#FFDFA4">
-                    <div class="col-md-6 left" style="text-align:left;">
-                        <img src="/iShuttle/crimsoncruiser.gif" style="width:60%; margin-left: 5vw;">
-                    </div>
-                    <div class="col-md-6 right">
-                        Upon selection, 
-                        the live shuttles and the stops are shown. Users can then click on a stop to show corresponding details 
-                        about arrival time. Because it can be frustrating for students to have to continuously check back on 
-                        shuttle status, we also added a notification button for each stop which, if selected, can notify the 
-                        student when the shuttle is near (students can edit the time frame for notifications in preferences). 
-                    </div>
+                <div class="col-md-5 right mockup" style="text-align:right;">
+                    <img src="/iShuttle/home.gif" style="width:60%;">
                 </div>
             </div>
 
-            <div class="text">
-            <h3>SEARCH AND PIN</h3>
-            As mentioned earlier, the second major group of users is often unfamiliar with the shuttle routes, 
-            and therefore needs to be able to discover the correct route and stops easily using the app. To 
-            reach this goal, we designed two methods for the user.</div>
+            <div class="row">
+                <div class="col-md-5 left mockup" style="text-align:left;">
+                    <img src="/iShuttle/crimsoncruiser.gif" style="width:60%;">
+                </div>
+                <div class="col-md-5 right description">
+                    Upon selection, 
+                    the live shuttles and the stops are shown. Users can then click on a stop to show corresponding details 
+                    about arrival time. Because it can be frustrating for students to have to continuously check back on 
+                    shuttle status, we also added a notification button for each stop which, if selected, can notify the 
+                    student when the shuttle is near (students can edit the time frame for notifications in preferences). 
+                </div>
+            </div>
+
+            <div class="features row">
+                <div class="col-md-4 left">
+                    <h3>Search and Pin</h3>
+                </div>
+                <div class="col-md-8 right">
+                    The second major group of users is often unfamiliar with the shuttle routes, 
+                    and therefore needs to be able to discover the correct route and stops easily using the app. To 
+                    reach this goal, we designed two methods for the user.
+                </div>
+            </div>
             
-            <div class="container-fluid">
-                <div class="mockup row" style="background-color:#FFDFA4">
-                    <div class="col-md-6 left">
-                        The first involves the search bar, through 
-                        which a user can search for a route or stop, in which case the correct match will appear, or they 
-                        can search for a specific address, in which case a pin will be dropped and nearby stops and routes 
-                        will be shown.
-                    </div>
-                    <div class="col-md-6 right" style="text-align:right;">
-                        <img src="/iShuttle/search.gif" style="width:60%; margin-right: 5vw;">
-                    </div>
+            <div class="row">
+                <div class="col-md-5 left description">
+                    The first involves the search bar, through 
+                    which a user can search for a route or stop, in which case the correct match will appear, or they 
+                    can search for a specific address, in which case a pin will be dropped and nearby stops and routes 
+                    will be shown.
                 </div>
-
-                <div class="mockup row" style="background-color:#FFDFA4">
-                    <div class="col-md-6 left">
-                        The second method involves finding the physical location of the destination on the map, 
-                    and then double tapping to manually drop a pin. Similarly to above, the nearby routes and stops will 
-                    be shown, and the user can then determine which options best fit his/her itiner ary. 
-                    </div>
-                    <div class="col-md-6 right" style="text-align:right;">
-                        <img src="/iShuttle/pin.gif" style="width:60%; margin-right: 5vw;">
-                    </div>
+                <div class="col-md-5 right mockup" style="text-align:right;">
+                    <img src="/iShuttle/search.gif" style="width:60%;">
                 </div>
             </div>
 
-            <div class="text">
-            <h3>SHUTTLE CALENDAR</h3>
-            Another major feature we designed was the inclusion of a personal shuttle schedule. Users can 
-            import events that require the use of a shuttle from their personal calendars, in which case a 
-            shuttle event will automatically be generated with the best fit shuttle based on time, destination, 
-            and starting point. Otherwise, a user can also choose to manually enter a shuttle into their schedule. 
-            Once entered, users can choose to receive notifications for these shuttles near arrival time. 
-            </div>
-
-            <div class="container-fluid">
-                <div class="mockup row" style="background-color:#FFDFA4">
-                    <div class="col-md-6">
-                        <img src="/iShuttle/cal.gif" style="width:60%; margin:5vh 2vw 5vh 5vw">
-                    </div>
-                    <div class="col-md-6">
-                        <img src="/iShuttle/notification.png" style="width:60%; margin:5vh 0vw 5vh 9vw">
-                    </div>
+            <div class="row">
+                <div class="col-md-5 left mockup" style="text-align:left;">
+                    <img src="/iShuttle/pin.gif" style="width:60%;">
+                    
+                </div>
+                <div class="col-md-5 right description">
+                    The second method involves finding the physical location of the destination on the map, 
+                and then double tapping to manually drop a pin. Similarly to above, the nearby routes and stops will 
+                be shown, and the user can then determine which options best fit his/her itinerary. 
                 </div>
             </div>
 
-            <div class="text">
-                <h3>ADDITIONAL FEATURES</h3>
-                        Finally, our team also included a number of miscellaneous features that we felt could substantially 
+            <div class="features row">
+                <div class="col-md-4 left">
+                    <h3>Shuttle Calendar</h3>
+                </div>
+                <div class="col-md-8 right">
+                    Another major feature we designed was the inclusion of a personal shuttle schedule. Users can 
+                    import events that require the use of a shuttle from their personal calendars, in which case a 
+                    shuttle event will automatically be generated with the best fit shuttle based on time, destination, 
+                    and starting point. Otherwise, a user can also choose to manually enter a shuttle into their schedule. 
+                    Once entered, users can choose to receive notifications for these shuttles near arrival time. 
+                </div>
+            </div>
+
+            <div class="calendar row">
+                <div class="col-md-6" style="padding: 10vh 0 10vh 10vw;">
+                    <img src="/iShuttle/cal.gif" style="width:60%;">
+                </div>
+                <div class="col-md-6" style="padding: 10vh 10vw 10vh 0; text-align:right;">
+                    <img src="/iShuttle/notification.png" style="width:60%;">
+                </div>
+            </div>
+
+            <div class="features row">
+                <div class="col-md-4 left">
+                    <h3>Additional Features</h3>
+                </div>
+                <div class="col-md-8 right">
+                    Finally, our team also included a number of miscellaneous features that we felt could substantially 
                         improve the app.
+                </div>
             </div>
 
-            <div class="container-fluid">
-                <div class="mockup row" style="background-color:#FFDFA4">
-                    <div class="col-md-6 left">
-                         The first change made here was to add an accessibility filter for color-impaired 
-                        users. Textured lines and colors with wider variance are shown in the scenario that the filter is 
-                        turned on to prevent confusion between close or overlapping lines.
-                    </div>
-                    <div class="col-md-6 right" style="text-align:right;">
-                        <img src="/iShuttle/eveningvan.gif" style="width:60%; margin-right: 5vw;">
-                    </div>
+            <div class="row">
+                <div class="col-md-5 left description">
+                        The first change made here was to add an accessibility filter for color-impaired 
+                    users. Textured lines and colors with wider variance are shown in the scenario that the filter is 
+                    turned on to prevent confusion between close or overlapping lines.
                 </div>
+                <div class="col-md-5 right mockup" style="text-align:right;">
+                    <img src="/iShuttle/eveningvan.gif" style="width:60%;">
+                </div>
+            </div>
 
-                <div class="mockup row" style="background-color:#FFDFA4">
-                    <div class="col-md-6 left" style="text-align:left;">
-                        <img src="/iShuttle/settings.gif" style="width:60%; margin-left: 5vw;">
-                    </div>
-                    <div class="col-md-6 right">
-                        The other feature we added was 
-                        the ability to easily schedule an evening van after a certain time in the evening. Campus evening 
-                        vans are an important aspect of maintaining both actual and perceived safety, and we therefore felt 
-                        that it was necessary to make this service much more easily accessible than it is in its current 
-                        situation, where students must navigate to a separate website, find the number associated with evening 
-                        vans, and call and schedule in real time for a van. Instead, our feature allows students to request 
-                        a van directly through the app immediately and in advance to minimize evening waiting time. 
-                    </div>
+            <div class="row">
+                <div class="col-md-5 left mockup" style="text-align:left;">
+                    <img src="/iShuttle/settings.gif" style="width:60%;">
+                </div>
+                <div class="col-md-5 right description">
+                    The other feature we added was 
+                    the ability to easily schedule an evening van after a given time in the PM. Campus evening 
+                    vans are essential to maintaining both actual and perceived safety, and we therefore felt 
+                    that it was necessary to make this service much more accessible than it is currently, 
+                    where students must navigate to a separate website, find the number associated with evening 
+                    vans, and call and schedule in real time for a van. Instead, our feature allows students to request 
+                    a van directly through the app immediately and in advance to minimize waiting time. 
                 </div>
             </div>
 
