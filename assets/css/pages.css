@@ -74,6 +74,68 @@ p {
     padding-right: 6vw;
 }
 
+/* HDC */
+.hdc-description{
+    position: fixed;
+    right:0;
+    width: 25vw;
+    margin: 20vh 5vw 0 0;
+}
+
+.hdc .col-md-8{
+    height: auto;
+}
+
+.hdc .col-md-8.hdc1{
+    height: 30vh;
+}
+
+.hdc .col-md-8.hdc2{
+    height: 60vh;
+    margin-top:0;
+}
+
+.hdc-text {
+    margin-bottom:10vh;
+    margin-top:3vh;
+    margin-left: 4vw;
+    padding: 5vh 8vw;
+}
+
+.hdc-text p, .hdc-text h1 {
+    color: black;
+    text-align: center;
+}
+
+#carouselhdc, #carouselhdc1 {
+    margin-left: 13vw;
+}
+
+#carouselhdc1 img {
+    width: 43vw;
+}
+
+.hdc1 .left.carousel-control{
+    margin-top: 10vh;
+    margin-left: 5vw;
+}
+
+.hdc1 .right.carousel-control{
+    margin-top: 10vh;
+    margin-left: 80vw;
+}
+
+.hdc2 .left.carousel-control{
+    margin-top: 25vh;
+    margin-left: 5vw;
+}
+
+.hdc2 .right.carousel-control{
+    margin-top: 25vh;
+    margin-left: 80vw;
+}
+
+
 /* CAROUSEL */
 #carousel1 img {
     width: 50vw;
@@ -93,7 +155,8 @@ p {
 #carousel9 img,
 #carousel10 img,
 #carousel11 img,
-#carousel12 img{
+#carousel12 img,
+#carouselhdc img{
     width: 43vw;
 }
 
@@ -101,7 +164,7 @@ p {
 #carousel4, #carousel6, 
 #carousel7, #carousel8,
 #carousel9, #carousel10,
-#carousel11, #carousel12 {
+#carousel11, #carousel12{
     margin-left: 12vw;
 }
 
