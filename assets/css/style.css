@@ -62,16 +62,6 @@ a:link, a:hover, a:visited {
 	background: #f5632e;
 }
 
-.above-title{
-	font-size: 1.2vw;
-	font-family: "Archivo Black", sans-serif;
-	color:black;
-	transform: translate(-8%, 0%);
-	-ms-transform: translate(-8%, 0%);
-	margin-bottom: 2.8vh;
-	text-align: center;
-}
-
 .photos .title {
 	color: white;
 	font-size: 1.2vw;
@@ -96,6 +86,16 @@ a:link, a:hover, a:visited {
 
 .col-md-4:hover .title {
 	opacity: 1;
+}
+
+.above-title{
+	font-size: 1.2vw;
+	font-family: "Archivo Black", sans-serif;
+	color:black;
+	transform: translate(-8%, 0%);
+	-ms-transform: translate(-8%, 0%);
+	margin-bottom: 2.8vh;
+	text-align: center;
 }
 
 /*ABOUT*/
