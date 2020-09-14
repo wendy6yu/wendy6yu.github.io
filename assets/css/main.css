@@ -59,10 +59,9 @@ a:hover, a:active {
 }
 
 .sub-menu a{
-    font-size: 1.2vw;
-    line-height: 1.4vw;
+    font-size: 1.1vw;
+    line-height: 1vw;
 }
-
 
 .studio{
     width: 100%;
@@ -130,11 +129,11 @@ p {
 }
 
 .link{
-    margin: 2.5vh 0;
+    margin: 2vh 0;
 }
 
 .link1{
-    margin: 1vh 0 2.5vh 0;
+    margin: 1vh 0 2vh 0;
 }
 
 a:hover {

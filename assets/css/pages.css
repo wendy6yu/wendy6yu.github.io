@@ -142,6 +142,52 @@ p {
     margin-left: 80vw;
 }
 
+/* Copysmith */
+.cs-description{
+    position: fixed;
+    right:0;
+    width: 25vw;
+    margin: 20vh 5vw 0 0;
+}
+
+.cs-description a{
+    color: black;
+    font-size: 1vw; 
+    line-height: 1.8vw;
+    font-weight: 400;
+}
+
+.copysmith .col-md-8{
+    height: auto;
+}
+
+.cs2 img{
+    margin-left: 13vw;
+    width: 43vw;
+}
+
+.cs-header{
+    margin: 10vh auto 3vh 14vw;
+    /* padding: 5vh 8vw; */
+}
+
+#carouselcs{
+    margin-left: 13vw;
+}
+
+#carouselcs img {
+    width: 43vw;
+}
+
+.cs1 .left.carousel-control{
+    margin-top: 22vh;
+    margin-left: 5vw;
+}
+
+.cs1 .right.carousel-control{
+    margin-top: 22vh;
+    margin-left: 80vw;
+}
 
 
 /* CAROUSEL */
