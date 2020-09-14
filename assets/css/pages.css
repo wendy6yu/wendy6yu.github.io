@@ -102,6 +102,13 @@ p {
     padding: 5vh 8vw;
 }
 
+.hdc-text a{
+    color: black;
+    font-size: 1vw; 
+    line-height: 1.8vw;
+    font-weight: 400;
+}
+
 .hdc-text p, .hdc-text h1 {
     color: black;
     text-align: center;
@@ -134,6 +141,7 @@ p {
     margin-top: 25vh;
     margin-left: 80vw;
 }
+
 
 
 /* CAROUSEL */
