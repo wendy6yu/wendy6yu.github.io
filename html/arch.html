@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Wendy Yu</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="google-site-verification" content="_XNtVFtsR1UiRiEBllE-hYrTPwupUFq8vuSW68AxCvY" />	
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.typekit.net/znq5bgq.css">
+		<link rel="stylesheet" href="/assets/css/main.css" />
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="/assets/js/jquery.min.js"></script>		
+	</head>
+
+	<body>
+		<div class="menu">
+			<a href="/index.html" style="font-size: 4vh;">WENDY YU</a>
+			<div id=navigation>
+				<div id="arch">
+					<!-- <a href="html/studio.html">🏗</a> <br> -->
+					<a href="arch.html">
+						<img src="/img/home/arch.png" style="height:7.5vh"><br>
+					</a>
+					<a href="arch.html">Architecture</a>
+				</div>
+				<div id="photo">
+					<!-- <a href="html/photos.html">📸</a> <br> -->
+					<a href="photography.html">
+						<img src="/img/home/photo.png" style="height:7.5vh"><br>
+					</a>
+					<a href="photography.html">Photography</a> 
+					<!-- <a href="html/about.html">about</a> -->
+				</div>
+			</div>
+		</div>
+	
+
+		<div class="container-fluid arch-thumbnail">
+            <hr noshade>
+            <div class="vl"></div>
+			<div class="row" style="height: 41vh;"> 
+				<div class="col-md-6 occlusion">
+                    <a href="/html/individual pages/arch/agent.html">
+                        <svg class="pink" width="50vw" height="41vh">
+                            <rect width="100%" height="100%"/>
+                        </svg>
+                        <img id="occlusion-thumbnail" src="/img/thumbnails/studio/building-occlusion1-01.jpg" style="height:30vh">
+                    </a>
+				</div>
+
+				<div class="col-md-6" style="display: flex; align-items: center;">
+                    <svg class="blue" width="50vw" height="41vh">
+                        <rect width="100%" height="100%"/>
+                    </svg>
+                    <div class="arch-title"></div>
+				</div>
+			</div>
+
+			<hr noshade>
+			<div class="row" style="height: 41vh;"> 
+				<div class="col-md-6 section">
+                    <a href="/html/individual pages/arch/96a.html">
+                        <svg class="purple" width="50vw" height="41vh">
+                            <rect width="100%" height="100%"/>
+                        </svg>
+                        <img id="section-thumbnail" src="/img/thumbnails/studio/section-03.png" style="height:35vh">
+                    </a>
+				</div>
+
+				<div class="col-md-6 bungalow">
+                    <a href="/html/individual pages/arch/bungalow.html">
+                        <svg class="yellow" width="50vw" height="41vh">
+                            <rect width="100%" height="100%"/>
+                        </svg>
+                        <img id="bungalow-thumbnail" src="/img/thumbnails/studio/render-front1.png" style="height:35vh">
+                    </a>
+				</div>
+			</div>
+        </div>
+        <hr>
+        
+        <div class="container-fluid footer">
+			<div class="row">
+				<div class="col-md-3">
+					<a href="/html/about.html">ABOUT</a>
+				</div>
+				<div class="col-md-9">
+					<div class="text-right">PACKAGED: 11 / 2020 BEST BY: 8 / 2021</div>
+				</div>
+			</div>
+        </div>
+        
+        <script type="text/javascript">
+            $(".occlusion").hover(function() {
+				$(".arch-title").html("Harvard Square Intervention");
+                $(".pink").css("fill", "#8390fa");
+            }, function() {
+                $(".arch-title").html("");
+                $(".pink").css("fill", "white");
+            });
+
+            $(".section").hover(function() {
+                $(".arch-title").html("Punctuated Equilibrium");
+                $(".purple").css("fill", "#fff70c");
+            }, function() {
+                $(".arch-title").html("");
+                $(".purple").css("fill", "white");
+            });
+
+            $(".bungalow").hover(function() {
+                $(".arch-title").html("Parallel Lines");
+                $(".yellow").css("fill", "#d94f45");
+            }, function() {
+                $(".arch-title").html("");
+                $(".yellow").css("fill", "white");
+            });
+        </script>
+
+	</body>
+</html>

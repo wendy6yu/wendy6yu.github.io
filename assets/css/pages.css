@@ -1,10 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Noto+Sans+SC:wght@400;500&family=Open+Sans:wght@400;600&display=swap');
 
 body {
-    font-family: embury-text, serif;
+    /* font-family: embury-text, serif; */
+    font-family: neue-haas-grotesk-text, sans-serif;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 400;
     background-color: white;
+}
+
+h1 {
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+    font-weight: 400;
+    font-family: neue-haas-grotesk-text, sans-serif;
+}
+
+p {
+    font-size: 1.0vw; 
+    line-height: 1.8vw;
+    font-weight: 200;
+    text-align: justify;
 }
 
 a{
@@ -18,46 +33,58 @@ a{
 a:hover, a:active {
 	text-decoration: none !important;
     color: inherit !important;
-    background-color: #f5632e;
+    background-color: #b5cee8;
 }
 
-h1 {
-    font-size: 1.5vw;
-    line-height: 2.5vw;
-    font-weight: 400;
-    font-family:'Archivo Black', sans-serif;
-}
-
-p {
-    font-size: 1vw; 
-    line-height: 1.8vw;
-    font-weight: 200;
-    text-align: justify;
-}
-
-
+/*---------- Menu ----------*/
 .menu {
-    width: 150px; 
+    margin:0;
+    padding:0;
+    width: 100%;
+    /* height: 12vh; */
     position: fixed;
     z-index: 12000;
-    top: 0; /* Stay at the top */
-    left: 0;
-    /* overflow-x: hidden;  */
-	padding-top: 2.5%;
-	padding-left: 4%;
-    margin-top: 1%;
-    letter-spacing: 0em;
-    font-family:'Archivo Black', sans-serif;
+    top: 0;
+	padding-top: 2%;
+    padding-left: 4%;
+    background-color: white;
+}
+
+h2 {
+    font-family: neue-haas-grotesk-text, sans-serif;
+    font-size: 4vh;
+    line-height: 5.7vh;
+    font-weight: 400;
+    position: absolute;
+    color: black;
+    margin:0;
+    padding: 0;
+    /* letter-spacing: .08vw; */
+    /* transform: scale(1, 1.03); */
+}
+
+.back {
+    font-family: neue-haas-grotesk-text, sans-serif;
+    font-size: 4vh;
+    line-height: 5.7vh;
+    font-weight: 400;
+    display: inline-block;
+    position: absolute;
+    right: 4%;
+    margin: 0;
+    padding: 0;
+}
+
+/*---------- Overall Structure ----------*/
+.container-fluid {
+    overflow-x: hidden;
+    position:absolute;
 }
 
 .col-md-8 {
     height: 100vh;
     display: flex;
     align-items: center;
-}
-
-.page-images {
-    margin: 0;
 }
 
 .col-md-4 {
@@ -67,14 +94,14 @@ p {
 }
 
 .page-text {
-    margin: 0;
+    margin-top: 7vh;
     color: black;
     font-size: 2vh;
-    padding-left: 0vw;
-    padding-right: 6vw;
+    padding-left: 2vw;
+    padding-right: 3vw;
 }
 
-/* HDC */
+/* HDC
 .hdc-description{
     position: fixed;
     right:0;
@@ -140,7 +167,7 @@ p {
 .hdc2 .right.carousel-control{
     margin-top: 25vh;
     margin-left: 80vw;
-}
+} */
 
 /* Copysmith */
 .cs-description{
@@ -191,15 +218,15 @@ p {
 
 
 /* CAROUSEL */
-#carousel1 img {
+/* #carousel1 img {
     width: 50vw;
 }
 
 #carousel1 {
-    /* margin-top: 11vh; */
     margin-left: 8vw;
-}
+} */
 
+#carousel1 img,
 #carousel2 img,
 #carousel3 img,
 #carousel4 img,
@@ -211,15 +238,16 @@ p {
 #carousel11 img,
 #carousel12 img,
 #carouselhdc img{
-    width: 43vw;
+    padding-top: 6vh;
+    width: 53vw;
 }
 
-#carousel2, #carousel3,
+#carousel1, #carousel2, #carousel3,
 #carousel4, #carousel6, 
 #carousel7, #carousel8,
 #carousel9, #carousel10,
 #carousel11, #carousel12{
-    margin-left: 12vw;
+    margin-left: 3vw;
 }
 
 #carousel5 img {
@@ -231,13 +259,17 @@ p {
 }
     
 .left.carousel-control{
-    margin-top: 76vh;
-    margin-left: 56.7vw;
+    height: 20px;
+    position: absolute;
+    top: 72%;
+    left: 83%;
 }
 
 .right.carousel-control{
-    margin-top: 80vh;
-    margin-left: 55vw;
+    height: 20px;
+    position: absolute;
+    top: 77%;
+    left: 83%;
 }
 
 .glyphicon {
@@ -246,8 +278,6 @@ p {
 }
 
 .carousel-indicators{
-    font-size: 2em;
-    bottom: -1%;
     visibility: hidden;
 }
 
