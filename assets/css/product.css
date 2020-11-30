@@ -333,12 +333,66 @@ button:hover {
     display: none;
     overflow: hidden;
 }
-/* .image{
-    display: block;
+
+/* CAROUSEL */
+/* #carousel1 img,
+#carousel2 img{
+    width: 53vw;
+}
+     */
+
+.carousel-inner {
+    height: 65vh !important;
+}  
+
+.right.carousel-control{
+    height: 12px;
+    position: absolute;
+    top: 50%;
+    left: 83%;
+    transform: rotate(-90deg);
 }
 
-.container-fluid{
-    display: block;
+.left.carousel-control{
+    height: 12px;
+    position: absolute;
+    top: 50%;
+    left: -8%;
+    transform: rotate(-90deg);
+}
+
+.glyphicon {
+    height: 12px;
+    width: auto;
+}
+
+.carousel-indicators{
+    visibility: hidden;
+}
+
+.carousel-control{
+  background: none !important;
+  filter: none !important;
+  color: black;
+}
+
+/* .carousel .item {
+    -webkit-transition: 0.6s ease-in-out right;
+    -moz-transition:    0.6s ease-in-out right;
+    -ms-transition:     0.6s ease-in-out right;
+    -o-transition:      0.6s ease-in-out right;
+    transition:         0.6s ease-in-out right;
+    left:               0;
 } */
+
+.carousel .active,
+.carousel .next.left,
+.carousel .prev.right { right: 0; }
+
+.carousel .next,
+.carousel .active.right { right:  -100%; }
+
+.carousel .prev,
+.carousel .active.left { right: 100%; }      
 
 

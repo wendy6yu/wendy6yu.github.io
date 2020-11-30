@@ -48,9 +48,8 @@ hr {
     border-top: 1.5px solid #0017e6;
     border-bottom: 0;
     display: block;
-    /* border-color:solid #d94f45;
-    background-color:solid #d94f45; */
     margin: 0;
+    padding: 0;
     width: 100vw;
     z-index: 500;
 }
@@ -221,6 +220,8 @@ a:hover, a:active {
 
 svg {
     display: block;
+    margin:0;
+    padding: 0;
 }
 
 .blue {
