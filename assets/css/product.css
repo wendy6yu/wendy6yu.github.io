@@ -334,12 +334,20 @@ button:hover {
     overflow: hidden;
 }
 
-/* CAROUSEL */
-/* #carousel1 img,
-#carousel2 img{
-    width: 53vw;
+.dashboard-outline {
+    fill: black;
+    /* stroke: #0017e6;
+    stroke-width: 3px; */
 }
-     */
+
+.dashboard {
+    display:inline-block; 
+    position:absolute;
+    top: 1px;
+    left: 1.2vw;
+}
+
+/* CAROUSEL */
 
 .carousel-inner {
     height: 65vh !important;

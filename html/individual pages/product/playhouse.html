@@ -82,10 +82,10 @@
                     <br><br>
                     My role: This fall, the <a href="https://www.instagram.com/harvarddesignco/" target="blank" style="font-size: 3vh; color:#0017e6">Harvard Design Collective</a> (Harvard's first organization for digital creatives, founded by
                     5 wonderful women and myself) took on PlayHouse as one of our clients. I served as design lead for this project, and worked closely
-                    several of our agency designers to define the scope of their product, design the architecture of their app, and prototype a few of 
+                    with several of our agency's designers to define the scope of their product, design the architecture of their app, and prototype a few of 
                     the screens.  
                     <br><br>
-                    Our project cycle just finished, and PlayHouse is now in app development stage.
+                    Our project cycle finished in November, and PlayHouse is currently in development stage.
                     <br><br>
                     This case study is focused on PlayHouse's general product ideation and on the design of the dashboard section of MVP.
                 </div>
@@ -95,7 +95,7 @@
             <div id="two" class="image">
                 <div class="text">
                 <h3>PROBLEM DEFINITION</h3>
-                The PlayHouse initiative began as a web app intended to stream performances and provide interactive programs that might bring a 
+                The PlayHouse initiative began as a web app intended to stream performances and provide interactive programs that would bring a 
                 missing sense of fun to virtual theater. Our clients quickly ran into a number of legal and partnership issues regarding streaming,
                 however, so it became necessary to pivot the central purpose of their product.
 
@@ -106,8 +106,8 @@
                 Playhouse. After speaking closely with the founders and understanding their vision for the app and pain points they had noted from these
                 interviews, we realized that they had two problems in focus:
                     <ul class="bullets-ee">
-                        <li><b>1/</b> Users found it frustrating to need to navigate from venue website to venue website to discover shows, acquire
-                            information, and book tickets from each.
+                        <li><b>1/</b> Users found it frustrating to need to navigate from website to website to discover shows, acquire
+                            information, and book tickets from each different venue.
                         </li>
                         <li><b>2/</b> Post-transition to streamed performances due to Covid, many theater enthusiasts were disappointed with the virtual
                             experience and missed the feeling and excitement of going to a physical venue.
@@ -123,12 +123,12 @@
                         <li><b>1/</b> Allow users to curate their own playhouse — a collection of concert and theater venues for easy, centralized
                             access to information from different places.
                         </li>
-                        <li><b>2/</b> Design fun, interactive programs that users can browse as they livestream shows, allowing more in depth understanding
+                        <li><b>2/</b> Design fun, interactive programs that users can browse as they livestream shows, allowing a more in depth understanding
                             of and connection with the show than a plain text PDF might achieve. 
                     </ul>
                     
                     <br>The interactive program could be tackled as a relatively independent component, so we temporarily set that aside and focused on
-                    the ability to aggregate and organize venue information while maintaining PlayHouse's fun and experimental core branding. We 
+                   how we would aggregate and organize venue information while maintaining PlayHouse's fun and experimental core branding. We 
                     divided the app into 3 levels of curation:
                     <ul class="bullets-ee">
                         <li><b>1/</b> A "Saved" tab: This would be the most curated tab — individual shows handpicked by the user, falling into the 
@@ -138,11 +138,11 @@
                             loosely off of past user behavior.
                         </li>
                         <li><b>3/</b> The user's dashboard, or "Playhouse": This was intended to fall between the previous 2 in terms of curation. 
-                            Venues would be added personally by the user, however, the performances shown in each venue selected by the venue themselves 
-                            (through a separate internal interface).
+                            Venues would be added personally by the user, however, the performances shown in each venue would be ones selected by 
+                            the venue themselves (through a separate internal interface).
                         </li>
                     </ul>
-
+                    <br>
                     This can best be seen through our proposed diagram of the app's architecture:
                     <br><br><img src="/img/playhouse/flow.png" style="width:100%"><br><br>
                     
@@ -154,45 +154,68 @@
             <div id="four" class="image">
                 <div class="text">
                     <h3>HIGH FIDELITY PROTOTYPE</h3>
-                    Omitting the intermediary drafts and trial, our completed MVP was a simple set of screens driven by the <i>singular goal
-                    of generating original, quality short form content with minimal work for the user</i><br><br>
-                    Creating copy only took 3 steps:<br><br>
+                    All primary information and activity is connected to the user's dashboard in the PlayHouse app. This was designed as a digital
+                    literal play "house," or a building designed by the user to house all preferred venues. While we brainstormed a number of different 
+                    methods of representing distinct venues and spaces, our team ended up moving forward with the idea of a floorplan, which already
+                    carries a familiar association with space and buildings in particular. 
+                    <br><br>
+                    Users can interact with their dashboard in 3 different ways:<br><br>
                     <div class="container-fluid" style="margin:0; padding: 0">
                         <div class="row">
                             <div class="col-md-7">
-                             1/ Navigate to desired copy type, and open new copy template.  
+                             1/ Users can browse their existing playhouse for theater updates (primarily to check if new shows are added, represented
+                             by a gem icon). Each venue block, when tapped, brings up a page of with venue information, updated internally by the venues
+                             themselves.
+                             <br><br>
+                             2/ Add either a block or floor (<i>represented by the righthand GIF</i>). A rectangular block can be customized and added to 
+                             any floor, or a floor (a grouping of blocks) can be added to the entire PlayHouse.
+                             <br><br>
+                             3/ Edit their playhouse — floors and blocks can be deleted, moved, or updated.
                             </div>
                             <div class="col-md-5" style="text-align: center;">
-                                <img src="/img/playhouse/dashboard.gif" style="width:100%;">
-                            </div>
-                        </div>
-                        <div class="row"style="margin: 8vh 0">
-                            <div class="col-md-4">
-                             2/ Complete the required fields.  
-                            </div>
-                            <div class="col-md-8" style="text-align: center; margin-right: -2vw;">
-                                <img src="/img/playhouse/X - 1.png" style="width:105%;">
+                                <svg class="dashboard-outline" width="25.7vw" height="88vh">
+                                    <rect width="100%" height="100%"/>
+                                </svg>
+                                <img class="dashboard" src="/img/playhouse/dashboard.gif" style="width:100%;">
                             </div>
                         </div>
                     </div>
+                    <br><br>
+                    An additional feature we had discussed with the client was the possibility of rendering the playhouse in 3D upon horizontal
+                    phone orientation.<br><br>  
+                    <img src="/img/playhouse/X - 1.png" style="width:105%;">
+                    
+                    <br><br>
+                    However, while this was and remains an exciting creative idea, we removed this feature for several reasons, including:
+                    <ul class="bullets-ee">
+                        <li><b>1/</b> What did the 3D interface bring to the table that the 2D interface didn't already have? We imagined the 3D
+                            interface to be a fun, gamified experience — for example, users might treasure hunt for new shows or other hidden features,
+                            but found that we couldn't otherwise justify the additional user confusion this would cause.
+                        </li>
+                        <li><b>2/</b> Practically speaking, this would require engineering expertise that simply was not available at the time.
+                        </li>
+                    </ul>
+                    <br>
+                    Finally, we also prototyped a live chat screen and an interactive program for PlayHouse in Figma.
+                    <br><br>
                     Select stills from our high-fidelity prototype:<br><br>
                     <div class="container-fluid" style="margin:0; padding:1vh; font-size: 2vh; line-height:3vh;">
                         <div class="row">
                             <div class="col-md-3" style="text-align: center;">
-                                <img style="width: 10vw" src="/img/playhouse/floorplan.png"><br><br>
+                                <img style="width: 11vw" src="/img/playhouse/floorplan.png"><br><br>
                                 <b>Dashboard.</b> Default (floorplan view) — explained above.
                             </div>
                             <div class="col-md-3" style="text-align: center;">
-                                <img style="width: 10vw" src="/img/playhouse/list.png"><br><br>
+                                <img style="width: 11vw" src="/img/playhouse/list.png"><br><br>
                                 <b>Dashboard.</b> List view, sorted alphabetically.
                             </div>
                             <div class="col-md-3" style="text-align: center;">
-                                <img style="width: 10vw" src="/img/playhouse/program.png"><br><br>
+                                <img style="width: 11vw" src="/img/playhouse/program.png"><br><br>
                                 <b>Interactive Program.</b> Cast & Crew, Scenes & Songs, and Journal were built to be interactive and exploratory. Ask
                                 me about these!
                             </div>
                             <div class="col-md-3" style="text-align: center;">
-                                <img style="width: 10vw" src="/img/playhouse/livechat.png"><br><br>
+                                <img style="width: 11vw" src="/img/playhouse/livechat.png"><br><br>
                                 <b>Live Chat.</b> Built with a clap meter — when a clap threshold is reached, confetti (and optional applause audio)
                                 is triggered.
                             </div>
@@ -212,7 +235,7 @@
                     venues that audience members might find either useful or comforting? What are other physical things or spaces that have 
                     transitioned well to digital?" etc. 
                     <br><br>
-                    This being said, because I am so interested in this on an academic level, it was easy to get carried away and often necessary
+                    That being said, because I am so interested in this at an academic level, it was easy to get carried away and often necessary
                     to reel myself back in for a reality check on how practical and usable the app was. 
                     <br><br>
                     Finally, this was a project with a relatively condensed timeline and a very widely spread team (we had a team member across the ocean in 
