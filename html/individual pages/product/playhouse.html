@@ -1,0 +1,283 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Wendy Yu</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <meta name="google-site-verification" content="_XNtVFtsR1UiRiEBllE-hYrTPwupUFq8vuSW68AxCvY" />	
+        
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.typekit.net/znq5bgq.css">
+        <link rel="stylesheet" href="/assets/css/product.css"/>
+
+        <script src="/assets/js/jquery.min.js"></script>	
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</head>
+
+	<body>
+		<div class="menu">
+            <!-- <h2 style="display:inline-block;">CIAO CHOW</h2> -->
+            <div class="back"><a href="/index.html">CLOSE</a></div>
+		</div>
+	
+        <div class="sub-menu">
+            <div class="gray">CONTENTS</div>
+            <div class="link1">
+                <a href="#one">Context</a>
+            </div>
+            <div class="link">
+                <a href="#two">Problem Definition</a>
+            </div>
+            <div class="link">
+                <a href="#three">Design Process</a>
+            </div>
+            <div class="link">
+                <a href="#four">High Fidelity Prototype</a>
+            </div>
+            <div class="link">
+                <a href="#five">Reflection</a>
+            </div>
+            <!-- <div class="link">
+                <a href="#six">MVP 1.5</a>
+            </div>
+            <div class="link">
+                <a href="#seven">Next Steps</a>
+            </div> -->
+            <!-- <div class="link">
+                <a href="#eight">Fluid Lines</a>
+            </div>
+            <div class="link">
+                <a href="#nine">Copysmith</a>
+            </div>   -->
+        </div>
+          
+
+        <div class="container-fluid title">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-5 left" style="padding-left: 4.2vw;">
+                    <h1>PLAYHOUSE</h1>
+                    <h2>Returning a 3rd Dimension to Virtual Theater and Performance </h2>
+                </div>
+                <div class="col-md-4 right info" style="padding-left: 5vw;">
+                    <div class="gray">DATE</b></div> Oct — Nov 2020<br><br>
+                    <div class="gray">TEAM</b></div> Nicole Araya<br>
+                    Cindy Wang<br>
+                    Wittman Goh<br>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="wrapper" class="entry">
+            <div class="img-container" style="text-align:center;">
+                <img src="/img/playhouse/hero.png" style="width:100%;">
+            </div>
+
+            <hr>
+            <div id="one" class="image">
+                <div class="text">
+                    PlayHouse is an early-stage startup currently housed at the Harvard Innovation Labs. The PlayHouse app focuses on bringing a 
+                    3rd dimension of entertainment and interaction to what has now become 2D virtual performance.
+                    <br><br>
+                    My role: This fall, the <a href="https://www.instagram.com/harvarddesignco/" target="blank" style="font-size: 3vh; color:#0017e6">Harvard Design Collective</a> (Harvard's first organization for digital creatives, founded by
+                    5 wonderful women and myself) took on PlayHouse as one of our clients. I served as design lead for this project, and worked closely
+                    several of our agency designers to define the scope of their product, design the architecture of their app, and prototype a few of 
+                    the screens.  
+                    <br><br>
+                    Our project cycle just finished, and PlayHouse is now in app development stage.
+                    <br><br>
+                    This case study is focused on PlayHouse's general product ideation and on the design of the dashboard section of MVP.
+                </div>
+            </div>
+
+            <hr>
+            <div id="two" class="image">
+                <div class="text">
+                <h3>PROBLEM DEFINITION</h3>
+                The PlayHouse initiative began as a web app intended to stream performances and provide interactive programs that might bring a 
+                missing sense of fun to virtual theater. Our clients quickly ran into a number of legal and partnership issues regarding streaming,
+                however, so it became necessary to pivot the central purpose of their product.
+
+                <br><br><!--<img src="/img/cs/blog.png" style="width:100%"><br><br> -->
+
+                Rather than replacing existing streaming services, our team focused on designing PlayHouse as a companion app. Our clients had already
+                defined their audience to be frequent performance (especially theater) attendees, and had conducted early interviews around the idea of 
+                Playhouse. After speaking closely with the founders and understanding their vision for the app and pain points they had noted from these
+                interviews, we realized that they had two problems in focus:
+                    <ul class="bullets-ee">
+                        <li><b>1/</b> Users found it frustrating to need to navigate from venue website to venue website to discover shows, acquire
+                            information, and book tickets from each.
+                        </li>
+                        <li><b>2/</b> Post-transition to streamed performances due to Covid, many theater enthusiasts were disappointed with the virtual
+                            experience and missed the feeling and excitement of going to a physical venue.
+                </div>
+            </div>
+
+            <hr>
+            <div id="three" class="image">
+                <div class="text">
+                    <h3>DESIGN PROCESS </h3>
+                   With respect to the two problems we defined above, my team proposed the below solution to each:
+                    <ul class="bullets-ee">
+                        <li><b>1/</b> Allow users to curate their own playhouse — a collection of concert and theater venues for easy, centralized
+                            access to information from different places.
+                        </li>
+                        <li><b>2/</b> Design fun, interactive programs that users can browse as they livestream shows, allowing more in depth understanding
+                            of and connection with the show than a plain text PDF might achieve. 
+                    </ul>
+                    
+                    <br>The interactive program could be tackled as a relatively independent component, so we temporarily set that aside and focused on
+                    the ability to aggregate and organize venue information while maintaining PlayHouse's fun and experimental core branding. We 
+                    divided the app into 3 levels of curation:
+                    <ul class="bullets-ee">
+                        <li><b>1/</b> A "Saved" tab: This would be the most curated tab — individual shows handpicked by the user, falling into the 
+                            categories of either "Saved for the future" or "Purchased ticket to."
+                        </li>
+                        <li><b>2/</b> An "Explore" tab: This would be the least curated tab — shows and venues suggested by the app, albeit based
+                            loosely off of past user behavior.
+                        </li>
+                        <li><b>3/</b> The user's dashboard, or "Playhouse": This was intended to fall between the previous 2 in terms of curation. 
+                            Venues would be added personally by the user, however, the performances shown in each venue selected by the venue themselves 
+                            (through a separate internal interface).
+                        </li>
+                    </ul>
+
+                    This can best be seen through our proposed diagram of the app's architecture:
+                    <br><br><img src="/img/playhouse/flow.png" style="width:100%"><br><br>
+                    
+                    We then proceeded to build the screens outlined in red in Figma.
+                </div>
+            </div>
+
+            <hr>
+            <div id="four" class="image">
+                <div class="text">
+                    <h3>HIGH FIDELITY PROTOTYPE</h3>
+                    Omitting the intermediary drafts and trial, our completed MVP was a simple set of screens driven by the <i>singular goal
+                    of generating original, quality short form content with minimal work for the user</i><br><br>
+                    Creating copy only took 3 steps:<br><br>
+                    <div class="container-fluid" style="margin:0; padding: 0">
+                        <div class="row">
+                            <div class="col-md-7">
+                             1/ Navigate to desired copy type, and open new copy template.  
+                            </div>
+                            <div class="col-md-5" style="text-align: center;">
+                                <img src="/img/playhouse/dashboard.gif" style="width:100%;">
+                            </div>
+                        </div>
+                        <div class="row"style="margin: 8vh 0">
+                            <div class="col-md-4">
+                             2/ Complete the required fields.  
+                            </div>
+                            <div class="col-md-8" style="text-align: center; margin-right: -2vw;">
+                                <img src="/img/playhouse/X - 1.png" style="width:105%;">
+                            </div>
+                        </div>
+                    </div>
+                    Select stills from our high-fidelity prototype:<br><br>
+                    <div class="container-fluid" style="margin:0; padding:1vh; font-size: 2vh; line-height:3vh;">
+                        <div class="row">
+                            <div class="col-md-3" style="text-align: center;">
+                                <img style="width: 10vw" src="/img/playhouse/floorplan.png"><br><br>
+                                <b>Dashboard.</b> Default (floorplan view) — explained above.
+                            </div>
+                            <div class="col-md-3" style="text-align: center;">
+                                <img style="width: 10vw" src="/img/playhouse/list.png"><br><br>
+                                <b>Dashboard.</b> List view, sorted alphabetically.
+                            </div>
+                            <div class="col-md-3" style="text-align: center;">
+                                <img style="width: 10vw" src="/img/playhouse/program.png"><br><br>
+                                <b>Interactive Program.</b> Cast & Crew, Scenes & Songs, and Journal were built to be interactive and exploratory. Ask
+                                me about these!
+                            </div>
+                            <div class="col-md-3" style="text-align: center;">
+                                <img style="width: 10vw" src="/img/playhouse/livechat.png"><br><br>
+                                <b>Live Chat.</b> Built with a clap meter — when a clap threshold is reached, confetti (and optional applause audio)
+                                is triggered.
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <hr>
+            <div id="five" class="image">
+                <div class="text" style="padding-bottom: 12vh;">
+                    <h3>REFLECTION</h3>
+                    In general, this app dealt with a topic very close to my interests — that concerning the increasing transition of physical spaces
+                    and interactions to digital forms and means. We were constantly asking ourselves questions such as, "What do the users miss most 
+                    about actually going to venues? What are existing problems of physical venues? What are familiar indicators and symbols found in 
+                    venues that audience members might find either useful or comforting? What are other physical things or spaces that have 
+                    transitioned well to digital?" etc. 
+                    <br><br>
+                    This being said, because I am so interested in this on an academic level, it was easy to get carried away and often necessary
+                    to reel myself back in for a reality check on how practical and usable the app was. 
+                    <br><br>
+                    Finally, this was a project with a relatively condensed timeline and a very widely spread team (we had a team member across the ocean in 
+                    Singapore!). All members of the design team were also simultaneously occupied full-time either as a student or intern, meaning 
+                    efficient and consistent communication ended up being extremely vital to project success. Despite the unprecedented circumstances, 
+                    however, I am insanely grateful to have worked with a machine of a team — will definitely miss our rose-bud-thorn check-ins
+                    at each meeting and Figma cursor-hovering! <br><br>
+                   
+                </div>
+            </div>
+
+            <!-- <hr>
+            <div id="six" class="image">
+                <div class="text">
+                    <h3>MVP 1.5</h3>
+                    This is where our product is currently at, although certainly not where it will stay at for long. Improved since MVP 1 are
+                    the following: <br><br>
+                    <div class="container-fluid" style="margin:0; padding: 0">
+                        <div class="row">
+                            <div class="col-md-12">
+                             1/ We updated the audience and brand keywords UI to resolve the limiting column format. We also added explanatory
+                             tooltips next to fields that users found confusing to fill out.
+                             <br><br><div style="width:100%; text-align:center; margin-left: -2vw;"><img src="/img/cs/keyword-ui.png" style="width:70%;"></div>
+                            </div>
+                        </div>
+                        <div class="row"style="margin: 5vh 0">
+                            <div class="col-md-12">
+                             2/ We designed an onboarding process, during which users would be able to fill out essential info used later to
+                             autopopulate templates.
+                             <br><br><div style="width:100%; text-align:center; margin-left: -2vw;"><img src="/img/cs/user-profile.png" style="width:80%;"></div>
+                            </div>
+                        </div>
+                        <div class="row"style="margin: 5vh 0">
+                            <div class="col-md-12">
+                            3/ We shipped a share function, which produced a URL with the generated copy in list format. We also added an upvote/downvote 
+                            system to this page to maximize team collaboration. 
+                            <br><br><div style="width:100%; text-align:center; margin-left: -2vw;"><img src="/img/cs/share (1).gif" style="width:80%;"></div>
+                            </div>
+                        </div>
+                        <div class="row"style="margin: 5vh 0">
+                            <div class="col-md-12">
+                            4/ Finally, a sneak preview at an upgraded dashboard, still very much a work in progress.
+                            <br><br><div style="width:100%; text-align:center; margin-left: -2vw;"><img src="/img/cs/preset-dashboard.png" style="width:100%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+            <div id="seven" class="image">
+               
+            </div> -->
+            <!-- <div id="eight" class="image">
+                <a href="/html/individual pages/bungalow.html">
+                    <img src="../img/thumbnails/studio/render-front1.png" style="width:30vw">
+                </a>
+            </div>
+            <div id="nine" class="image">
+                <a href="/html/individual pages/copysmith.html">
+                    <img src="../img/thumbnails/studio/cs-thumbnail.gif" style="width:40vw">
+                </a>
+            </div> -->
+        </div>
+
+        <script src="/assets/js/main.js"></script>	
+
+	</body>
