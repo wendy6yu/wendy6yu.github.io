@@ -14,7 +14,7 @@ body {
     line-height: 5vh;
     font-family: 'Inter', sans-serif;
     font-family: neue-haas-unica, sans-serif;
-    color: #7a7a7a;
+    color: #6e6e6e;
 }
 
 .info {
@@ -212,7 +212,7 @@ a img:hover {
     line-height: 5vh;
     font-family: 'Inter', sans-serif;
     font-family: neue-haas-unica, sans-serif;
-    color: #7a7a7a;
+    color: #6e6e6e;
     margin: 5vh auto;
 }
 
@@ -266,7 +266,7 @@ a img:hover {
 }
 
 .gray {
-    color: #7a7a7a;
+    color: #6e6e6e;
     font-family: neue-haas-unica, sans-serif;
     font-weight: 500;
     font-size: 1.8vh;
@@ -308,13 +308,13 @@ li {
     font-weight: 800;
     font-size: 1.7vw;
     line-height: 4vh;
-    color: #7a7a7a;
+    color: #6e6e6e;
 }
 
 .caption {
     font-weight: 300;
     font-size: 2vh;
-    color: #7a7a7a;
+    color: #6e6e6e;
 }
 
 button{
