@@ -358,8 +358,8 @@ button:hover {
 .dashboard {
     display:inline-block; 
     position:absolute;
-    top: 1px;
-    left: 1.2vw;
+    top: 2px;
+    left: 1.3vw;
 }
 
 /* CAROUSEL */

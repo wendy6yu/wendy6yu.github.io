@@ -191,21 +191,32 @@
                     Users can interact with their dashboard in 3 different ways:<br><br>
                     <div class="container-fluid" style="margin:0; padding: 0">
                         <div class="row">
-                            <div class="col-md-7">
-                             1/ Users can browse their existing playhouse for theater updates (primarily to check if new shows are added, represented
+                            <div class="col-md-8">
+                             1/ Users can <div class="blue">browse their existing playhouse for venue updates </div> (primarily to check if new shows have been added, represented
                              by a gem icon). Each venue block, when tapped, brings up a page with venue information, updated internally by the venues
                              themselves.
-                             <br><br>
-                             2/ Add either a block or floor (<i>represented by the righthand GIF</i>). A rectangular block can be customized and added to 
-                             any floor, or a floor (a grouping of blocks) can be added to the entire PlayHouse.
-                             <br><br>
-                             3/ Edit their playhouse — floors and blocks can be deleted, moved, or updated.
                             </div>
-                            <div class="col-md-5" style="text-align: center;">
-                                <svg class="dashboard-outline" width="25.7vw" height="88vh">
-                                    <rect width="100%" height="100%"/>
-                                </svg>
-                                <img class="dashboard" src="/img/playhouse/dashboard.gif" style="width:100%;">
+                            <div class="col-md-4" style="text-align: center;">
+                                <img src="/img/playhouse/dashboard2.png" style="width:100%;">
+                            </div>
+                        </div>
+                        <div class="row" style="margin-top: 5vh;">
+                            <div class="col-md-8">
+                             2/ Users can edit their playhouse — <div class="blue">floors and blocks can be deleted, moved, or updated</div> in both
+                             floorplan view and list view.
+
+                            </div>
+                            <div class="col-md-4" style="text-align: center;">
+                                <img src="/img/playhouse/edit-mode.gif" style="width:100%; border: 1px solid black;">
+                            </div>
+                        </div>
+                        <div class="row" style="margin-top: 5vh;">
+                            <div class="col-md-8">
+                             3/ From editing mode, users can also<div class="blue"> add either a venue or floor</div>. A rectangular block representing a venue
+                             can be customized and added to any floor, or a floor (a grouping of venues) can be added to the entire PlayHouse.
+                            </div>
+                            <div class="col-md-4" style="text-align: center;">
+                                <img src="/img/playhouse/add-block.gif" style="width:100%; border: 1px solid black;">
                             </div>
                         </div>
                     </div>
@@ -231,12 +242,14 @@
                     <div class="container-fluid" style="margin:0; padding:1vh; font-size: 2vh; line-height:3vh;">
                         <div class="row">
                             <div class="col-md-3" style="text-align: center;">
-                                <img style="width: 11vw" src="/img/playhouse/floorplan.png"><br><br>
-                                <b>Dashboard.</b> Default (floorplan view) — explained above.
+                                <img style="width: 11vw" src="/img/playhouse/Icon Legend.png"><br><br>
+                                <b>Icon Legend.</b> Icons represent changes in venue status. What information exactly to
+                                include requires further testing.
                             </div>
                             <div class="col-md-3" style="text-align: center;">
-                                <img style="width: 11vw" src="/img/playhouse/list.png"><br><br>
-                                <b>Dashboard.</b> List view, sorted alphabetically.
+                                <img style="width: 11vw" src="/img/playhouse/Add Floor.png"><br><br>
+                                <b>Add Floor (grouping functionality).</b> A user can add a blank floor or move existing venues
+                                into a new floor.
                             </div>
                             <div class="col-md-3" style="text-align: center;">
                                 <img style="width: 11vw" src="/img/playhouse/program.png"><br><br>
