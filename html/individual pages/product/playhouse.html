@@ -80,7 +80,7 @@
                     PlayHouse is an early-stage startup currently housed at the Harvard Innovation Labs. The PlayHouse app focuses on bringing a 
                     3rd dimension of entertainment and interaction to what has now become 2D virtual performance.
                     <br><br>
-                    <div style="color:#0017e6; display: inline-block">My role: </div> This fall, the <a href="https://www.instagram.com/harvarddesignco/" target="blank" style="font-size: 3vh; color:#0017e6">Harvard Design Collective</a> (Harvard's first organization for digital creatives, founded by
+                    <div class="blue">My role: </div> This fall, the <a href="https://www.instagram.com/harvarddesignco/" target="blank" style="font-size: 3vh; color:#0017e6">Harvard Design Collective</a> (Harvard's first organization for digital creatives, founded by
                     5 wonderful women and myself) took on PlayHouse as one of our clients. I served as design lead for this project, and worked closely
                     with several of our agency's designers to define the scope of their product, design the architecture of their app, and prototype a few of 
                     the screens.  
@@ -101,16 +101,20 @@
 
                 <br><br><!--<img src="/img/cs/blog.png" style="width:100%"><br><br> -->
 
-                Rather than replacing existing streaming services, our team focused on designing PlayHouse as a companion app. Our clients had already
+                <div class="blue">Rather than replacing existing streaming services, our team focused on designing PlayHouse as a companion app.</div> 
+                
+                <br><br>  
+                Our clients had already
                 defined their audience to be frequent performance (especially theater) attendees, and had conducted early interviews around the idea of 
                 Playhouse. After speaking closely with the founders and understanding their vision for the app and pain points they had noted from these
-                interviews, we realized that they had two problems in focus:
+                interviews,  <div class="blue">we realized that they had two problems in focus:</div>
                     <ul class="bullets-ee">
                         <li><b>1/</b> Users found it frustrating to need to navigate from website to website to discover shows, acquire
                             information, and book tickets from each different venue.
                         </li>
                         <li><b>2/</b> Post-transition to streamed performances due to Covid, many theater enthusiasts were disappointed with the virtual
                             experience and missed the feeling and excitement of going to a physical venue.
+                    </ul>
                 </div>
             </div>
 
@@ -126,18 +130,31 @@
                         <li><b>2/</b> Design fun, interactive programs that users can browse as they livestream shows, allowing a more in depth understanding
                             of and connection with the show than a plain text PDF might achieve. 
                     </ul>
+
+                    <br> 
+                    <i>Our thoughts: There has to be something better than this!</i><br><br>  
+                    <div class="container-fluid" style="margin:0; padding: 0">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="/img/playhouse/programpdf.png" style="width:85%;">
+                            </div>
+                            <div class="col-md-8" style="text-align: center;">
+                                <img src="/img/playhouse/theater-sites.png" style="width:90%;">
+                            </div>
+                        </div>
+                    </div><br>
                     
                     <br>The interactive program could be tackled as a relatively independent component, so we temporarily set that aside and focused on
-                   how we would aggregate and organize venue information while maintaining PlayHouse's fun and experimental core branding. We 
-                    divided the app into 3 levels of curation:
+                   how we would aggregate and organize venue information while maintaining PlayHouse's fun and experimental core branding. <div class="blue">We 
+                    divided the app into 3 levels of curation:</div>
                     <ul class="bullets-ee">
-                        <li><b>1/</b> A "Saved" tab: This would be the most curated tab — individual shows handpicked by the user, falling into the 
+                        <li><b>1/</b> A "Saved" tab: This would be the most user-curated tab — individual shows handpicked by the user, falling into the 
                             categories of either "Saved for the future" or "Purchased ticket to."
                         </li>
-                        <li><b>2/</b> An "Explore" tab: This would be the least curated tab — shows and venues suggested by the app, albeit based
+                        <li><b>2/</b> An "Explore" tab: This would be the least user-curated tab — shows and venues suggested by the app, albeit based
                             loosely off of past user behavior.
                         </li>
-                        <li><b>3/</b> The user's dashboard, or "Playhouse": This was intended to fall between the previous 2 in terms of curation. 
+                        <li><b>3/</b> The user's dashboard, or "Playhouse": This was intended to fall between the previous 2 in terms of user-curation. 
                             Venues would be added personally by the user, however, the performances shown in each venue would be ones selected by 
                             the venue themselves (through a separate internal interface).
                         </li>
@@ -148,9 +165,17 @@
                     <a class="lightbox" href="#flow" id="flow-small">
                         <img src="/img/playhouse/flow.png" style="width:100%">
                     </a> 
-                    <br><br>
+                    <br><br> <br>
                     
-                    We then proceeded to build the screens outlined in red in Figma.
+                    We then proceeded to develop the screens outlined in red, starting with many very rough idea sketches.
+                   <br><br><div style="text-align:center"><img src="/img/playhouse/rough-sketch.JPG" style="width:100%"></div><br><br>
+
+                    And eventually refining them in Figma after some discussion amongst our team and with the clients and their engineering team.
+                    <br><br><div style="text-align:center"><img src="/img/playhouse/sketch.png" style="width:100%"></div><br><br>
+
+                    We used these slightly more refined screens to source user feedback from HDC's agency members, which we then incorporated into
+                    the high-fidelity prototype below.
+
                 </div>
             </div>
 
@@ -168,7 +193,7 @@
                         <div class="row">
                             <div class="col-md-7">
                              1/ Users can browse their existing playhouse for theater updates (primarily to check if new shows are added, represented
-                             by a gem icon). Each venue block, when tapped, brings up a page of with venue information, updated internally by the venues
+                             by a gem icon). Each venue block, when tapped, brings up a page with venue information, updated internally by the venues
                              themselves.
                              <br><br>
                              2/ Add either a block or floor (<i>represented by the righthand GIF</i>). A rectangular block can be customized and added to 
