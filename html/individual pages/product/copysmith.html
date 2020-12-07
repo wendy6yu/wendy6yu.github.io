@@ -74,7 +74,7 @@
                         <h3>EXPERIMENTATION TEMPLATES</h3><br>
                         We also did a bit of creative experimentation with GPT-3. In this specific instance, we imagined the AI as a means of
                         generating creative brainstorming. Users enter into a conversation with the AI to produce a string of ad campaign ideas.
-                        The full flow is as follows (click to enlarge):<br><br>
+                        The full flow is as follows:<br><br>
                         <div style="width:100%; text-align:center;"><img src="/img/cs/brainstorming-map.png" style="width:100%;"></div><br>
                         And the final screens were modeled off of the prototype here:<br><br>
                         <div style="width:100%; text-align:center;"><img src="/img/cs/brainstorming.png" style="width:100%;"></div>
@@ -118,11 +118,11 @@
                     The existing universe of marketing copy is infinitely large, impossible to navigate,
                     and composed of Google Sheet mazes, hours upon hours of SEO research, and chains of emails between writers, managers, and creative directors.
                     <br><br>
-                    This is where Copysmith comes in as the figurative Cat in the Hat cleaning machine — without giving away too much, we entered
-                    this sphere with the intention of using AI to eliminate time spent composing marketing copy, although you'll see that much 
+                    This is where Copysmith comes in as the figurative Cat in the Hat cleaning machine — without giving away too much, <div class="blue">we entered
+                    this sphere with the intention of using AI to eliminate time spent composing marketing copy</div>, although you'll see that much 
                     has changed since then.
                     <br><br>
-                    I joined Copysmith summer of 2020 as their first and initially sole designer (eventually we onboarded another product designer
+                    <div style="color:#0017e6; display: inline-block">My role: </div> I joined Copysmith summer of 2020 as their first and initially sole designer (eventually we onboarded another product designer
                     as well as several short term designers from Springboard). At the time, I first joined to design Copysmith's branding and general
                     design system, after which I transitioned into the position of lead product designer and spearheaded the development of
                     MVP and its later iterations. While building the MVP, I also worked closely with our growth and engineering teams.
@@ -148,16 +148,22 @@
                 <div class="text">
                 <h3>PROBLEM DEFINITION</h3>
                 This was definitely a non-linear path, and is frankly still evolving. If we backtrack to the very beginning, our team
-                initially envisioned Copysmith as a long-form content generator because we knew that businesses with significant online traffic needed to generate 
+                <div class="blue">initially envisioned Copysmith as a long-form content generator</div> because we knew that businesses with significant online traffic needed to generate 
                 hundreds of blog posts a month, which we imagined to be hugely time consuming. 
 
                 <br><br><img src="/img/cs/blog.png" style="width:100%"><br><br>
 
-                To test out this idea, Copysmith had a pre-MVP product which consisted solely of a somewhat lengthy Typeform which the user would 
+                Specifically, we received feedback along the lines of the following: <br>
+                <div class="emphasis" style="text-align:center; color:#0017e6">"We currently spend 4-6 hours researching and writing a blog post, and if Copysmith can at least [halve] that, it's a game changer."</div>
+
+                To test out our potential in this market, Copysmith had an MVP 0.0 which consisted solely of a somewhat lengthy Typeform which the user would 
                 complete — we would then feed their answers into the AI and have it return a blog post, which we would email in plain HTML to the user.
+
+                <br><br><div style="text-align:center;"><img src="/img/cs/typeform.png" style="width:70%"></div><br>
+
                 As we began speaking to users, however, we quickly ran into 2 realizations:
                     <ul class="bullets-ee">
-                        <li><b>1/</b> It is VERY difficult for users to trust AI-generated long-form content. Post-generation, they
+                        <li><b>1/</b> It is VERY difficult for users to trust AI-generated long-form content off the bat. Post-generation, they
                             will probably still comb through and edit the text quite thoroughly, therefore limiting Copysmith's usefulness.
                         </li>
                         <li><b>2/</b> There is a whole world of short form copy that needs to be generated. This copy is also far more straightforward
@@ -171,8 +177,10 @@
             <div id="three" class="image">
                 <div class="text">
                     <h3>DESIGN PROCESS </h3>
-                    With our revised goal of generating short-form copy, we teamed up with growth to define our target curstomer base
-                    and created 2 user personas to better understand the expectations of users. We ended with the following user types:<br><Br>
+                    With our revised goal of generating short-form copy, I teamed up with growth to define our target curstomer base
+                    and created 2 user personas to better understand the expectations of users. Based off of initial research,<div class="blue">
+                        we intended to target a) marketing directors at larger companies and b) owners of SMEs.</div> The details of each user persona
+                        are as follows:<br><Br>
 
                     <div class="container-fluid">
                         <div class="row"> 
@@ -233,18 +241,19 @@
                     </div>
 
                     After speaking to a range of potential users, we were able to confirm that,
-                    at minimum, our MVP needed 2 parts: 1) a dashboard to store and organize files, and 2) files which stored and generated copy. 
-                    The planned user flow looked as follows:
+                    at minimum, <div class="blue">our MVP needed 2 parts: 1) a dashboard to store and organize files, and 2) files which stored and generated copy.</div>
+                    The planned user flow looked as follows (click to enlarge):
                     <br><br>
                     <a class="lightbox" href="#flow" id="flow-small">
                         <img src="/img/cs/mvp-flow.png" style="width:100%">
                     </a>
                     <br><br>
-                    Some other important questions we asked potential users included: 
+                    Some other important questions we asked potential users during initial research included: 
                     <ul class="bullets-ee">
-                        <li><b>1/</b> Which forms of copy are most valuable to our customers to generate? Internally, we the had to work with engineering to
-                            determine what the necessary parameters were for each.
-                        <li><b>2/</b> What are the minimum and maximum bounds of how much input we can ask from the user, and what is the ideal balance?
+                        <li><b>1/</b> Which forms of copy are most valuable to our customers to generate? Internally, we had to work with engineering to
+                            determine what types of content templates could be generated as well as the necessary parameters for each.
+                        <li><b>2/</b> What are the minimum and maximum bounds of how much input we can ask from the user, and what is the ideal balance? 
+                            <i>(Measured primarily in terms of time, but also in terms of mental energy required by different types of form fields.)</i>
                             This required an understanding of what our users valued more between efficiency and quality.
                         </li>
                     </ul>
@@ -256,8 +265,8 @@
             <div id="four" class="image">
                 <div class="text">
                     <h3>MVP - HIGH FIDELITY PROTOTYPE</h3>
-                    Omitting the intermediary drafts and trial, our completed MVP was a simple set of screens driven by the <i>singular goal
-                    of generating original, quality short form content with minimal work for the user</i>.<br><br>
+                    Omitting the intermediary drafts and trial, our completed MVP was a simple set of screens <div class="blue">driven by the singular goal
+                    of generating original, quality short form content with minimal work for the user</div>.<br><br>
                     Creating copy only took 3 steps:<br><br>
                     <div class="container-fluid" style="margin:0; padding: 0">
                         <div class="row">
@@ -318,7 +327,7 @@
                     <h3>BACK TO THE DRAWING BOARD</h3>
                     Having an MVP was crucial for understanding many things about Copysmith's future that remained hidden otherwise.
                     <br><br>
-                    Post-launch, our team began organizing feedback immediately. We sourced user input through several means, including: 
+                    Post-launch, our team began organizing feedback immediately. <div class="blue">We sourced user input through several means, including:</div> 
                     <ul class="bullets-ee">
                         <li><b>1/</b> Direct user testing</li>
                         <li><b>2/</b> User Onboarding: we personally onboarded many of our first users both to alleviate the confusion 
@@ -331,17 +340,30 @@
                     affect either the Copysmith audience or product goal and purpose), and then by the below categories:
                     <br><br><div style="width:100%; text-align:center"><img src="/img/cs/post-it-key.png" style="width:70%;"></div><br><br>
                     Within this section, I'll discuss the feedback given for micro changes, and leave macro changes for the "Next Steps" section. 
-                    On the micro end, our user feedback was filtered and assembled into this affinity diagram:
+                    <div class="blue">On the micro end, our user feedback was filtered and assembled into this affinity diagram:</div>
                     <br><br><img src="/img/cs/micro.png" style="width:100%;"><br><br>
                     More difficult than sourcing feedback was sorting through the feedback and prioritizing changes, especially given limited
                     engineering resources and time.<br><br>
+                    
                     Some of the issues were quick to resolve: click to copy became click to edit and drag over text to copy, which allowed us to
                     eliminate the troublesome lock UI. We received many requests for a CSV download, so we also implemented that function. Based off
                     of the quantity of similar feedback, we also deemed some sort of share ability and certain changes to our input form necessary and 
                     relatively easy to implement — these I'll detail in the following section.<br><br>
-                    Finally, some of the feedback we felt were reasonable changes, but would be longer term endeavors — in particular, we decided we needed to improve
-                    our dashboard architecture and in-file generation organization, but are still in the process of designing and
-                    implementing these changes. 
+
+                    Finally, some of the feedback we felt were reasonable changes, but would be longer term endeavors. The biggest needle mover for users, of course, 
+                    was always generation quality and variety of copy templates (we had many requests for new copy types ranging from social media captions to
+                    idea generators — we've had to do a thorough sort and prioritize). <div class="blue">On the design end, we decided our big picture method of making the user
+                    journey more efficient and enjoyable had 3 paths:</div> 
+                    <ul class="bullets-ee">
+                        <li><b>1/</b> Improve organization, both in terms of dashboard architecture and in-file generation organization (folders, presets,
+                            tagging and filtering, etc.).</li>
+                        <li><b>2/</b> Reduce the input fields barrier to generation (autopopulated fields, word banks/suggestions, integrations, etc.)
+                        of using a new interface and to gauge customer understanding.</li>
+                        <li><b>3/</b> Flesh out "next steps" post-generation — i.e. "What can I do with this generation, and how do I best get it to my final
+                            destination?" (improve sharing, exporting, integrations, etc.) </li>
+                    </ul>
+                    These, however, are longer term changes made as a part of the journey of acheiving product market fit.
+                    implementing these changes. First, we'll discuss some smaller changes that have already been implemented.
                 </div>   
             </div>
 
@@ -381,8 +403,12 @@
                         </div>
                         <div class="row"style="margin: 5vh 0">
                             <div class="col-md-12">
-                            4/ Finally, a sneak preview at an upgraded dashboard, still very much a work in progress.
-                            <br><br><div style="width:100%; text-align:center; margin-left: -2vw;"><img src="/img/cs/preset-dashboard.png" style="width:100%;"></div>
+                            4/ Finally, a sneak preview at an upgraded dashboard, still very much a work in progress (click to enlarge).
+                            <br><br>
+                            <a class="lightbox" href="#preset-flow" id="flow-small-preset">
+                                <img src="/img/cs/preset-dashboard.png" style="width:100%;">
+                            </a>
+                            <!-- <div style="width:100%; text-align:center; margin-left: -2vw;"><img src="/img/cs/preset-dashboard.png" style="width:100%;"></div> -->
                             </div>
                             <!-- <div class="col-md-8" style="text-align: center;">
                                 <img src="/img/cs/share (1).gif" style="width:103%;">
@@ -399,11 +425,11 @@
                    It's been incredibly important to sync with other teams consistently both to see if the smaller pieces we're working on align but also to
                    confirm that we agree on the bigger picture of Copysmith at hand.<br><br>
                    We recently teamed up with Iain Thomas, an author and also creative director well versed in the marketing world, to develop our product
-                   strategy. Our latest meeting focused on product market fit and recalibrating our direction, because we realized we had amassed a 
+                   strategy. <div class="blue">Our latest meeting focused on product market fit and recalibrating our direction, because we realized we had amassed a 
                    considerable user base in the past few weeks that was pulling Copysmith towards different futures.<br><br>
                    Specifically, what Copysmith might look like if we target SMEs v. entrepreneurs v. B2Bs v. agencies v. Shopify stores varies quite 
-                   dramatically. Our analytics indicated that product descriptions were our most highly used content template by far, suggesting that 
-                   Copysmith could be quite successful as a companion app to Shopify (read: focus on integrations).<br><br>
+                   dramatically.</div> Our analytics indicated that product descriptions were our most highly used content template by far, suggesting that 
+                   Copysmith could be quite successful as a companion app to Shopify (read: focus on plugins).<br><br>
                    More details regarding this section are confidential, but if you'd like to discuss this, please reach out to me! I would love to talk,
                    especially if you also have visions for the infinite potential of GPT-3.<br><br>
                    As you might be able to tell, Copysmith is rapidly evolving - we design one thing one day and ship it the next. There are many immediate next 
@@ -426,6 +452,13 @@
             <img src="/img/cs/mvp-flow.png" style="width:100%">
             <a class="lightbox-close" href="#flow-small">CLOSE</a>
          </div>
+
+         <div class="lightbox-target" id="preset-flow">
+            <img src="/img/cs/preset-dashboard.png" style="width:100%;">
+            <a class="lightbox-close" href="#flow-small-preset">CLOSE</a>
+         </div>
+
+        
 
         <script src="/assets/js/main.js"></script>	
 
