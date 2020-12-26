@@ -98,10 +98,18 @@ a:hover, a:active {
     font-size: 2vh;
 }
 
+.menu img {
+    height: 7.5vh;
+}
+
 #arch, #photo {
     display: inline-block;
     text-align: center;
     padding: 0 0 0 3vw;
+}
+
+#name {
+    font-size: 4vh;
 }
 
 
@@ -154,6 +162,10 @@ a:hover, a:active {
     padding-left: 4vw;
 }
 
+.project-date{
+    margin-top: 0;
+}
+
 .col-md-5 {
     padding-top: 4vh;
     padding-right: 7vw;
@@ -203,19 +215,31 @@ a:hover, a:active {
 #occlusion-thumbnail {
     position:absolute;
     top: 26.7%;
-    left: 19%;
+    height:30vh;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 
 #bungalow-thumbnail {
     position:absolute;
     top: 14.6%;
-    left: 33%;
+    height:35vh;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 
 #section-thumbnail {
     position:absolute;
     top: 14%;
-    left: 25%;
+    height:35vh;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 
 svg {
@@ -336,7 +360,7 @@ svg {
 /*---------- About ----------*/
 .about {
     margin: 12vh 4vw 11vh 4vw;
-    width: 70%
+    width: 71%;
 }
 
 .navy {
@@ -400,17 +424,258 @@ svg {
     color: black;
 }
 
-/* .footer hr {
-    margin: 3vh 0;
-} */
 
-/* .copyright{
-    font-family: "Archivo Black", sans-serif;
-    color: rgba(109, 109, 109, 0.375);
-    position: fixed;
-    bottom: 2%;
-    left: 4%;
-    font-size: 1.5vh;
-    line-height: 2vh;
-    z-index: 10000;
-} */
+
+
+
+/*---------- Breakpoints ----------*/
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) { 
+    .menu {
+        height: 8.5vh;
+        padding-top: 5%;
+        padding-left: 7%;
+    }
+    #navigation {
+        right: 7%;
+    }
+    #navigation a {
+        font-size: 1.5vh;
+    }
+    .menu img {
+        height: 4vh;
+    }
+    #arch, #photo {
+        display: inline-block;
+        text-align: center;
+        padding: 0 0 0 3vw;
+    }
+    #name {
+        line-height: 4vh;
+        font-size: 6vw;
+    }
+
+    /*---------- Intro ----------*/
+    h1 {
+        font-size: 8vw;
+        line-height: 10vw;
+    }
+    .intro{
+        width: 85vw;
+        height: 60vh;
+        margin: 15vh auto 0;
+        display: inline-block;
+        text-align: left;
+    }
+    #typed {
+        font-size: 8vw; 
+        line-height: 10vw;
+        font-weight: 400;
+        display: inline;
+        color: #0017e6;
+        font-style: italic;
+    }
+
+    /*---------- Home ----------*/
+    .product-menu h2{
+        /* padding-top: 2.2vh; */
+        font-size: 6vw;
+        display: inline-block;
+    }
+    .project-title {
+        padding-top: 0;
+        line-height:3.5vh;
+        padding-left: 3.5vw;
+    }
+    .project-date {
+        position: absolute;
+        right: 0;
+        right: 7%;
+        padding-top: .8vh;
+    }
+    .home-thumbnail{
+        padding: 4vh;
+    }
+    .col-md-5 {
+        padding: 0 7vw 4vh 7vw;
+    }
+    .col-md-5 a{
+        font-size: 2.3vh; 
+    }
+    p {
+        font-size: 2.3vh; 
+        line-height: 3.8vh;
+    }
+
+    /*---------- Footer ----------*/
+    .footer .row{
+        font-size: 2.3vh;
+        padding: 1vh 0;
+        margin: 0;
+    }
+    .footer a{
+        font-size: 6vw;
+        /* line-height: 6vh; */
+        color: #0017e6;
+    }
+    .footer .col-md-3{
+        position: absolute;
+        left: 3%;
+        display: inline-block;
+    }
+    .footer .col-md-9{
+        max-width: 55%;
+        position: absolute;
+        right: 3%;
+        display: inline-block;
+    }
+
+    /*---------- About ----------*/
+    .about {
+        margin: 10vh 7vw 6vh 7vw;
+        width: 90%;
+    }
+    .about h2{
+        /* padding-top: 2.2vh; */
+        font-size: 3vh;
+        line-height: 4.5vh;
+    }
+    .navy {
+        color: #0017e6;
+    }
+    .tip {
+        position: relative;
+        display: inline-block;
+        color: #0017e6;
+        font-style: italic;
+    }
+    .tip .tooltip-text {
+        width: 45vw;
+        border-color: #0017e6;
+        padding: 2.5vh;
+        font-size: 2.2vh;
+        line-height: 3.2vh;
+    
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+        top: 5vh;
+        left: -5%; 
+    }
+    .tip:hover .tooltip-text {
+        visibility: visible;
+    }
+    #socials {
+        padding: 1vh 1.7vh;
+        align-content: center;
+    }
+    #socials .col-md-4{
+        display: inline-block;
+    }
+    #socials a{
+        font-size: 2.3vh;
+    }
+    #instagram {
+        min-width: 42%;
+    }
+    /*---------- Architecture ----------*/
+    .arch-thumbnail {
+        margin-top: 11vh;
+        overflow-y: hidden;
+    }
+    .vl {
+        border-left: 1.5px solid #0017e6;
+        height: 82.3vh;
+        position: absolute;
+        left: 50%;
+        margin-left: -1px;
+        z-index: 100;
+        /* top: 0; */
+    }
+    .arch-thumbnail .col-md-6 {
+        max-width: 49.5%;
+        display: inline-block;
+    }
+    .arch-title {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        /* top: 40%; */
+        text-align: center;
+        font-family: neue-haas-grotesk-text, sans-serif;
+        font-size: 3vh;
+        font-weight: 400;
+        opacity: 0;
+    }
+    #occlusion-thumbnail {
+        top: 68%;
+        width: 42vw;
+        height: auto;
+    }
+    #bungalow-thumbnail {
+        top: 25%;
+        width: 42vw;
+        height: auto;
+    }
+    #section-thumbnail {
+        top: 55%;
+        width: 42vw;
+        height: auto;
+    }
+    svg {
+        display: block;
+        margin:0;
+        padding: 0;
+    }
+
+    /*---------- Photography ----------*/
+    .photography {
+        margin-top: 12vh;
+    }
+    .photography .col-md-3 {
+        padding-top: 1vh;
+    }
+    .photography h2{
+        font-size: 6vw;
+        display: inline-block;
+    }
+    .photography p {
+        margin-bottom: .5vh;
+        font-size: 1.8vh; 
+        font-weight: 400;
+        line-height: 3vh;
+    }
+    .photography .col-md-5 {
+        padding: 0;
+        margin-top: 3vh;
+    }
+    .photography .col-md-4 {
+        padding: 4vh 7vw;    
+    }
+    /*---------- Carousel ----------*/
+    #carousel2 img,
+    #carousel3 img,
+    #carousel4 img,
+    #carousel5 img,
+    #carousel6 img,
+    #carousel7 img,
+    #carousel8 img,
+    #carousel9 img,
+    #carousel11 img{
+        width: 85%;
+    }
+
+    #carousel2, #carousel3,
+    #carousel4, #carousel5, #carousel6, 
+    #carousel7, #carousel8,
+    #carousel9, #carousel11{
+        margin-left: 17vw;
+    }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {} 
