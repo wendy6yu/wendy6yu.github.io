@@ -287,6 +287,13 @@ svg {
 }
 
 /*---------- Carousel ----------*/
+.carousel-inner {
+    width: 31.3vw;
+    height: 31.3vw;
+    line-height: 31.3vw;
+    text-align: center;
+}
+
 #carousel2 img,
 #carousel3 img,
 #carousel4 img,
@@ -296,7 +303,21 @@ svg {
 #carousel8 img,
 #carousel9 img,
 #carousel11 img{
-    width: 88%;
+    max-width: 100%;
+    vertical-align: middle;
+    position: relative;
+    top: 50%;
+    transform: translateY(25%);
+    margin: auto;
+}
+
+#vertical img{
+    margin: auto;
+    max-width: 67%;
+    vertical-align: middle;
+    position:initial;
+    top: 50%;
+    transform: translateY(0%);
 }
 
 #carousel2, #carousel3,
@@ -305,7 +326,6 @@ svg {
 #carousel9, #carousel11{
     margin-left: 6vw;
 }
-
     
 .right.carousel-control{
     height: 12px;
@@ -357,10 +377,16 @@ svg {
 .carousel .prev,
 .carousel .active.left { right: 100%; }        
 
+
 /*---------- About ----------*/
 .about {
     margin: 12vh 4vw 11vh 4vw;
     width: 71%;
+}
+
+#about-footer {
+    position: absolute; 
+    bottom: 1vh;
 }
 
 .navy {
@@ -396,16 +422,9 @@ svg {
     left: 105%; 
 }
   
-  .tip:hover .tooltip-text {
+  .tip:hover .tooltip-text, .tip:active .tooltip-text {
     visibility: visible;
   }
-
-/* .arrow {
-    display: inline-block;
-    color: #0017e6;
-    font-size: 4vh;
-    font-weight: 600;
-} */
 
 /*---------- Footer ----------*/
 .footer .row{
@@ -563,7 +582,7 @@ svg {
         top: 5vh;
         left: -5%; 
     }
-    .tip:hover .tooltip-text {
+    .tip:hover .tooltip-text, .tip:active .tooltip-text{
         visibility: visible;
     }
     #socials {
@@ -579,6 +598,13 @@ svg {
     #instagram {
         min-width: 42%;
     }
+
+    #about-footer {
+        position: relative; 
+        bottom: auto;
+        overflow-x:visible;
+    }
+
     /*---------- Architecture ----------*/
     .arch-thumbnail {
         margin-top: 11vh;
@@ -654,6 +680,16 @@ svg {
         padding: 4vh 7vw;    
     }
     /*---------- Carousel ----------*/
+    .carousel-inner {
+        width: 80vw;
+        height: 80vw;
+        line-height: 80vw;
+        text-align: center;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
     #carousel2 img,
     #carousel3 img,
     #carousel4 img,
@@ -663,14 +699,28 @@ svg {
     #carousel8 img,
     #carousel9 img,
     #carousel11 img{
-        width: 85%;
+        max-width: 100%;
+        vertical-align: middle;
+        position: relative;
+        top: 50%;
+        transform: translateY(25%);
+        margin: auto;
+    }
+    
+    #vertical img{
+        margin: auto;
+        max-width: 67%;
+        vertical-align: middle;
+        position:initial;
+        top: 50%;
+        transform: translateY(0%);
     }
 
     #carousel2, #carousel3,
     #carousel4, #carousel5, #carousel6, 
     #carousel7, #carousel8,
     #carousel9, #carousel11{
-        margin-left: 17vw;
+        margin-left: 4vw;
     }
 } 
 
