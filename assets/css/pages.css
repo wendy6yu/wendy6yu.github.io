@@ -1,39 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Noto+Sans+SC:wght@400;500&family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
 
 body {
     /* font-family: embury-text, serif; */
-    font-family: neue-haas-grotesk-text, sans-serif;
-    font-style: normal;
+    /* font-family: neue-haas-grotesk-text, sans-serif; */
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     background-color: white;
+    overflow: hidden;
 }
+
 
 h1 {
     font-size: 1.5vw;
     line-height: 2.5vw;
     font-weight: 400;
-    font-family: neue-haas-grotesk-text, sans-serif;
+    /* font-family: neue-haas-grotesk-text, sans-serif; */
+    font-family: 'Inter', sans-serif;
 }
 
 p {
     font-size: 1.0vw; 
-    line-height: 1.8vw;
-    font-weight: 200;
+    line-height: 1.7vw;
+    font-weight: 500;
     text-align: justify;
 }
 
 a{
     color: black;
     text-decoration: none;
-    font-weight: 300;
-    font-size: 2.3vw;
-    line-height: 3.4vw;
+    font-weight: 500;
+    font-size: 2vw;
+    line-height: 3vw;
 }
 
 a:hover, a:active {
 	text-decoration: none !important;
-    color: inherit !important;
-    background-color: #b5cee8;
+    color: white;
+    background-color: black;
 }
 
 /*---------- Menu ----------*/
@@ -51,10 +56,11 @@ a:hover, a:active {
 }
 
 h2 {
-    font-family: neue-haas-grotesk-text, sans-serif;
+    /* font-family: neue-haas-grotesk-text, sans-serif; */
+    font-family: 'Inter', sans-serif;
     font-size: 4vh;
     line-height: 5.7vh;
-    font-weight: 400;
+    font-weight: 500;
     position: absolute;
     color: black;
     margin:0;
@@ -64,15 +70,20 @@ h2 {
 }
 
 .back {
-    font-family: neue-haas-grotesk-text, sans-serif;
+    /* font-family: neue-haas-grotesk-text, sans-serif; */
+    font-family: 'Inter', sans-serif;
     font-size: 4vh;
     line-height: 5.7vh;
-    font-weight: 400;
+    font-weight: 500;
     display: inline-block;
     position: absolute;
-    right: 4%;
+    right: 6vw;
     margin: 0;
     padding: 0;
+}
+
+.back:hover, .back:active {
+    color: white;
 }
 
 /*---------- Overall Structure ----------*/
@@ -85,6 +96,11 @@ h2 {
     height: 100vh;
     display: flex;
     align-items: center;
+    text-align: center;
+}
+
+.carousel-inner{
+    text-align: center;
 }
 
 .col-md-4 {
@@ -97,77 +113,9 @@ h2 {
     margin-top: 7vh;
     color: black;
     font-size: 2vh;
-    padding-left: 2vw;
-    padding-right: 3vw;
+    padding-left: 0vw;
+    padding-right: 4vw;
 }
-
-/* HDC
-.hdc-description{
-    position: fixed;
-    right:0;
-    width: 25vw;
-    margin: 20vh 5vw 0 0;
-}
-
-.hdc .col-md-8{
-    height: auto;
-}
-
-.hdc .col-md-8.hdc1{
-    height: 30vh;
-}
-
-.hdc .col-md-8.hdc2{
-    height: 60vh;
-    margin-top:0;
-}
-
-.hdc-text {
-    margin-bottom:10vh;
-    margin-top:3vh;
-    margin-left: 4vw;
-    padding: 5vh 8vw;
-}
-
-.hdc-text a{
-    color: black;
-    font-size: 1vw; 
-    line-height: 1.8vw;
-    font-weight: 400;
-}
-
-.hdc-text p, .hdc-text h1 {
-    color: black;
-    text-align: center;
-}
-
-#carouselhdc, #carouselhdc1 {
-    margin-left: 13vw;
-}
-
-#carouselhdc1 img {
-    width: 43vw;
-}
-
-.hdc1 .left.carousel-control{
-    margin-top: 10vh;
-    margin-left: 5vw;
-}
-
-.hdc1 .right.carousel-control{
-    margin-top: 10vh;
-    margin-left: 80vw;
-}
-
-.hdc2 .left.carousel-control{
-    margin-top: 25vh;
-    margin-left: 5vw;
-}
-
-.hdc2 .right.carousel-control{
-    margin-top: 25vh;
-    margin-left: 80vw;
-} */
 
 /* Copysmith */
 .cs-description{
@@ -218,76 +166,59 @@ h2 {
 
 
 /* CAROUSEL */
-/* #carousel1 img {
-    width: 50vw;
+.carousel-inner{
+    width: 46vw;
 }
 
-#carousel1 {
-    margin-left: 8vw;
-} */
-
-#carousel1 img,
-#carousel2 img,
-#carousel3 img,
-#carousel4 img,
-#carousel6 img,
-#carousel7 img,
-#carousel8 img,
-#carousel9 img,
-#carousel10 img,
-#carousel11 img,
-#carousel12 img,
-#carouselhdc img{
-    padding-top: 6vh;
-    width: 53vw;
+#carousel2 .carousel-inner{
+    width: 40vw;
 }
 
-#carousel1, #carousel2, #carousel3,
-#carousel4, #carousel6, 
-#carousel7, #carousel8,
-#carousel9, #carousel10,
-#carousel11, #carousel12{
+#carousel1 img, #carousel2 img, #carousel3 img{
+    padding-top: 7vh;
+    width: 100%;
+    height: auto;
+    object-fit: contain;  
+}
+
+#carousel1, #carousel2, #carousel3{
     margin-left: 3vw;
 }
 
-#carousel5 img {
-    width: 45vw;
+.carousel-arrow {
+    font-size: 1.3vw;
+    line-height: 1.9vw;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    text-shadow: none;
 }
 
-#carousel5 {
-    margin-left: 9vw;
-}
-    
 .left.carousel-control{
-    height: 20px;
+    height: 2vw;
     position: absolute;
-    top: 72%;
-    left: 83%;
+    vertical-align: center;
+    top: 82%;
+    left: 82%;
+    transform: rotate(180deg);
 }
 
 .right.carousel-control{
-    height: 20px;
+    height: 2vw;
     position: absolute;
-    top: 77%;
-    left: 83%;
-}
-
-.glyphicon {
-    height: 12px;
-    width: auto;
-}
-
-.carousel-indicators{
-    visibility: hidden;
+    vertical-align: center;
+    top: 82%;
+    left: 87%;
 }
 
 .carousel-control{
-  background: none !important;
-  filter: none !important;
-  color: black;
-}
+    background: none !important;
+    filter: none !important;
+    color: black;
+    opacity: 1;
+  }
 
-.carousel.vertical .item {
+/* 
+.carousel.vertical .carousel-item {
     -webkit-transition: 0.6s ease-in-out top;
     -moz-transition:    0.6s ease-in-out top;
     -ms-transition:     0.6s ease-in-out top;
@@ -304,6 +235,6 @@ h2 {
 .carousel.vertical .active.right { top:  100%; }
 
 .carousel.vertical .prev,
-.carousel.vertical .active.left { top: -100%; }        
+.carousel.vertical .active.left { top: -100%; }         */
 
-
+  

@@ -1,5 +1,4 @@
 @import url(//db.onlinewebfonts.com/c/3958068da9870842af9998bb94b99cd8?family=Clearface);
-/* @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Noto+Sans+SC:wght@400;500&family=Open+Sans:wght@400;600&display=swap'); */
 @import url("https://use.typekit.net/znq5bgq.css");
 
 *{
@@ -12,29 +11,41 @@ body {
     /* font-family: embury-text, serif; */
     font-family: neue-haas-grotesk-text, sans-serif;
     color: black;
-    /* background-color: white; */
-    /* margin: 0; */
     overflow-x: hidden;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    padding-top: 14vh;
+}
+
+#product {
+    background-color: #9F3000;
 }
 
 h1 {
-    font-size: 4.5vw;
-    font-weight: 400;
-    line-height: 5.5vw;
+    font-size: 2.5vw;
+    font-weight: 200;
+    line-height: 4vw;
     font-family: neue-haas-grotesk-text, sans-serif;
+    color: white;
+    padding-bottom: 14vh;
     /* font-family: degular-text, sans-serif; */
 }
 
-h2 {
+h2{
+    font-size: 2.5vw;
+    font-weight: 300;
+    line-height: 4vw;
+    font-family: neue-haas-grotesk-text, sans-serif;
+    color: black;
+    padding-bottom: 14vh;
+}
+
+/* h2 {
     margin:2vh auto 0;
     font-size: 4vh;
     font-weight: 400;
-    /* font-family: degular-text, sans-serif; */
-    /* font-family: stratos-lights, sans-serif; */
     line-height: 6vh;
-    /* letter-spacing: .08vw; */
-    /* transform: scale(1, 1.03); */
-}
+} */
 
 p {
     margin-bottom: 1.75vh;
@@ -71,6 +82,85 @@ a:hover, a:active {
 /* a:hover {
     cursor: url(/img/mouse/cursor-10.png) 10 10, auto;
 } */
+
+label{
+    font-size: 2.3vw;
+    font-weight: 200;
+    line-height: 4vw;
+    font-family: neue-haas-grotesk-text, sans-serif;
+    color: white;
+}
+
+.custom-select {
+    /* position: relative; */
+    display: inline-block;
+    font-size: 2.3vw;
+    font-weight: 200;
+    line-height: 4vw;
+    font-family: neue-haas-grotesk-text, sans-serif;
+    color: white;
+  }
+
+  #category {
+    background-color: #9F3000;
+    border: 2px solid;
+    border-color: white;
+    border-radius: 8px;
+  }
+  
+  .select-selected {
+    background-color: white;
+    color: white;
+    
+  }
+  
+  /* Style the arrow inside the select element: */
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  /* Point the arrow upwards when the select box is open (active): */
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+  }
+  
+  /* style the items (options), including the selected item: */
+  /* .select-items div{
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 2px solid;
+    border-color: white;
+    border-radius: 8px;
+    cursor: pointer;
+  } */
+  
+/*style items (options):*/
+.select-items {
+    position: absolute;
+    background-color: #9F3000;
+    border-radius: 8px;
+    top: 200%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  
+  /* Hide the items when the select box is closed: */
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
 
 
 /*---------- Menu ----------*/
