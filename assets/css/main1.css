@@ -471,6 +471,11 @@ hr {
 .carousel .prev,
 .carousel .active.left { right: 100%; }    */
 
+/*---------- Product Design ----------*/
+.previously.col-md-6 {
+    padding-left: 6vw; 
+    padding-right: 0;
+}
 
 /*---------- About ----------*/
 #about .p, #about a{
@@ -486,6 +491,11 @@ hr {
 
 #about .col-md-8 {
     padding-right: 6vw;
+}
+
+#about .col-md-4 {
+    padding-left: 4vw; 
+    padding-right: 0;
 }
 
 .tip {
@@ -522,4 +532,472 @@ hr {
   
 .tip:hover .tooltip-text, .tip:active .tooltip-text {
     visibility: visible;
+}
+
+
+
+/*---------- Breakpoints ----------*/
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 575.98px) { 
+    body{
+        padding-left: 8vw;
+        padding-right: 8vw;
+        padding-top: 8vh;
+    }
+    .menu {
+        padding-left: 8vw;
+        padding-right: 8vw;
+    }
+    body#photo {
+        padding-left: 0vw;
+        padding-right: 0vw;
+    }
+    h1 {
+        font-size: 2vh;
+        line-height: 3.5vh;
+        padding-bottom: 6vh;
+    }
+    #photo h1{
+        padding-bottom: 0vh;
+    }
+    h2{
+        font-size: 2vh;
+        line-height: 3vh;
+    }
+    .open-new h2 {
+        line-height: 3vh;
+    }
+    p {
+        font-size: 2vh;
+        line-height: 3vh;
+    }
+
+    /*----- columns ----- */
+    .col-md-6 {
+        padding: 0;
+        padding-right: 10vw;
+    }
+
+    /*----- select ----- */
+    .custom-select-wrapper {
+        width: 50vw;
+    }
+
+    .custom-select__trigger {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10px;
+        font-size: 2vh;
+        font-weight:500;
+        line-height: 3.5vh;
+        color: white;
+        height: 4.5vh;
+        line-height: 3vh;
+        border-width: 1.5px;
+        border-radius: 4px;
+    }
+    .custom-options {
+        margin-top: 1vh;
+        padding: 8px 0;
+        border: 1.5px solid white;
+        border-radius: 4px;
+        box-shadow: 0 0px 10px 1px rgb(0 0 0 / 0.2);
+    }
+
+    .custom-option {
+        position: relative;
+        display: block;
+        padding: 0 10px;
+        font-size: 2vh;
+        line-height: 4vh;
+    }
+
+    .custom-option:hover {
+        border-radius: 4px;
+    }
+
+    /*----- arrow ----- */
+    .arrow {
+        font-size: 1.5vh;
+        height: 1.5vh;
+        width: 1.5vh;
+        line-height: 1vh;
+    }
+    .open .arrow::before {
+        line-height: 1vh;
+    }
+
+    /*---------- Architecture ----------*/
+    #arch .container-fluid {
+        margin-top: 2vh;
+        padding:0;
+    }
+
+    .accordion-button, .accordion-button:active {
+        font-size: 2vh;
+        line-height: 3vh;
+        padding-top: 2vh;
+    }
+
+    .accordion-body {
+        padding: 0;
+    }
+
+    .accordion-body a{
+        font-size: 1.5vh;
+        text-decoration: none;
+    }
+
+    #arch .col-md-4{
+        padding-top: 33vh;
+        position: absolute;
+    }
+
+    #arch .col-md-6 {
+        margin-left: 0vw;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    #tn-img{
+        width: 60vw;
+        margin: auto;
+        display: block;
+    }
+
+    #tn-img.p1 {
+        content: url("/img/thumbnails/studio/building-occlusion1-01.jpg");
+        width: 75%;
+        height: auto;
+    }
+
+    #tn-img.p2 {
+        content: url("/img/thumbnails/studio/96a-tn.png");
+        width: 75%;
+        height: auto;
+    }
+
+    #tn-img.p3 {
+        content: url("/img/thumbnails/studio/render-front1.png");
+        width: 40%;
+        height: auto;
+    }
+
+    /*---------- Photography ----------*/
+    .photography {
+        margin-top: 6vh;
+    }
+
+    .col-md-4.title {
+        padding: 4vh 8vw 2vh 8vw;
+    }
+
+    .photography p {
+        line-height: 3vh;
+    }
+
+    .photo-desc p {
+        font-size: 2vh;
+        line-height: 3vh;
+    }
+
+    .col-md-4.images {
+        padding: 0;
+        padding-left: 8vw;
+        margin-top: 0px;
+    }
+
+    .col-md-4.photo-desc {
+        margin-left: 0vw;
+        padding: 4vh 8vw;
+    }
+
+    hr {
+        border: 0;
+        border-top: 1.5px solid #99ABE9;
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+    }
+
+    /*---------- Carousel ----------*/
+    .carousel-inner {
+        width: 60vw;
+        height: 60vw;
+    }
+
+    #carousel4, #carousel5, #carousel6{
+        margin-left: 11.5vw;
+    }
+        
+    .right.carousel-control{
+        height: 2vh;
+        top: 50%;
+        left: 85%;
+    }
+    .left.carousel-control{
+        height: 2vh;
+        top: 50%;
+        left: 10%;
+    }
+    .carousel-arrow {
+        font-size: 2vh;
+        line-height: 3vh;
+    }
+
+
+    /*---------- Product Design ----------*/
+    .previously.col-md-6 {
+        padding-left: 0; 
+        padding-top: 8vh;
+    }
+
+    /*---------- About ----------*/
+    #about .p, #about a{
+        font-size: 2vh;
+        line-height: 3vh;
+        padding-bottom: 2vh;
+    }
+    #about .col-md-8 {
+        padding-right: 6vw;
+    }
+    #about .col-md-4 {
+        padding-left: 4vw; 
+        padding-top: 4vh;
+    }
+
+    .tip {
+        font-size: 2vh;
+        line-height: 3vh;
+    }
+    .tip .tooltip-text {
+        width: 50vw;
+        border-width: 1.5px;
+        border-radius: 4px;
+        padding: 1vh;
+        margin-left: -33vw;
+        /* margin-top: -6vh; */
+        font-size: 2vh;
+        line-height: 3vh;
+    }
+    
+}
+
+
+
+/* Narrow small devices (iphone x, 375px and below) */
+@media only screen and (max-width: 375.2px) { 
+    body{
+        padding-left: 7vw;
+        padding-right: 7vw;
+        padding-top: 6vh;
+    }
+    .menu {
+        padding-left: 7vw;
+        padding-right: 7vw;
+    }
+    body#photo {
+        padding-left: 0vw;
+        padding-right: 0vw;
+    }
+    h1 {
+        font-size: 1.8vh;
+        line-height: 3vh;
+        padding-bottom: 6vh;
+    }
+    #photo h1{
+        padding-bottom: 0vh;
+    }
+    h2{
+        font-size: 1.8vh;
+        line-height: 2.8vh;
+    }
+    .open-new h2 {
+        line-height: 2.8vh;
+    }
+    p {
+        font-size: 1.8vh;
+        line-height: 2.8vh;
+    }
+
+    /*----- columns ----- */
+    .col-md-6 {
+        padding: 0;
+        padding-right: 10vw;
+    }
+
+    /*----- select ----- */
+    .custom-select-wrapper {
+        width: 51vw;
+    }
+
+    .custom-select__trigger {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 8px;
+        font-size: 1.8vh;
+        font-weight:500;
+        line-height: 3vh;
+        color: white;
+        height: 4vh;
+        border-width: 1.5px;
+        border-radius: 4px;
+    }
+
+    .custom-option {
+        position: relative;
+        display: block;
+        padding: 0 10px;
+        font-size: 1.8vh;
+        line-height: 3.5vh;
+    }
+
+    .custom-option:hover {
+        border-radius: 4px;
+    }
+
+    /*----- arrow ----- */
+    .arrow {
+        font-size: 1.2vh;
+        height: 1.2vh;
+        width: 1.2vh;
+        line-height: .8vh;
+    }
+    .open .arrow::before {
+        line-height: .8vh;
+    }
+
+    /*---------- Architecture ----------*/
+    #arch .container-fluid {
+        margin-top: 2vh;
+        padding:0;
+    }
+
+    .accordion-button, .accordion-button:active {
+        font-size: 1.8vh;
+        line-height: 2.8vh;
+        padding-top: 2vh;
+    }
+
+    .accordion-body {
+        padding: 0;
+    }
+
+    .accordion-body a{
+        font-size: 1.5vh;
+        text-decoration: none;
+    }
+
+    #arch .col-md-4{
+        padding-top: 28vh;
+        position: absolute;
+    }
+
+    #arch .col-md-6 {
+        margin-left: 0vw;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    #tn-img.p1 {
+        width: 75%;
+        height: auto;
+    }
+
+    #tn-img.p2 {
+        width: 75%;
+        height: auto;
+    }
+
+    #tn-img.p3 {
+        width: 40%;
+        height: auto;
+    }
+
+    /*---------- Photography ----------*/
+    .photography {
+        margin-top: 6vh;
+    }
+
+    .col-md-4.title {
+        padding: 3vh 7vw 1vh 7vw;
+    }
+
+    .photography p {
+        line-height: 2.8vh;
+    }
+
+    .photo-desc p {
+        font-size: 1.8vh;
+        line-height: 2.8vh;
+    }
+
+    .col-md-4.images {
+        padding: 0;
+        padding-left: 7vw;
+        margin-top: 0px;
+    }
+
+    .col-md-4.photo-desc {
+        margin-left: 0vw;
+        padding: 3vh 7vw;
+    }
+
+    /*---------- Carousel ----------*/
+    #carousel4, #carousel5, #carousel6{
+        margin-left: 12vw;
+    }
+    .carousel-arrow {
+        font-size: 2vh;
+        line-height: 2vh;
+    }
+
+
+    /*---------- Product Design ----------*/
+    .previously.col-md-6 {
+        padding-left: 0; 
+        padding-top: 7vh;
+    }
+
+    /*---------- About ----------*/
+    #about .p, #about a{
+        font-size: 1.8vh;
+        line-height: 2.8vh;
+        padding-bottom: 1.2vh;
+    }
+    #about .col-md-8 {
+        padding-right: 6vw;
+    }
+    #about .col-md-4 {
+        padding-left: 4vw; 
+        padding-top: 6vh;
+    }
+
+    .tip {
+        font-size: 1.8vh;
+        line-height: 2.8vh;
+    }
+    .tip .tooltip-text {
+        width: 50vw;
+        border-width: 1.5px;
+        border-radius: 4px;
+        padding: 1vh;
+        margin-left: -33vw;
+        /* margin-top: -6vh; */
+        font-size: 1.8vh;
+        line-height: 2.8vh;
+    }
+    
 }
