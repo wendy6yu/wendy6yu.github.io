@@ -416,6 +416,10 @@ hr {
     transform: translateY(0%);
 }
 
+#phone img{
+    margin-top: -2.4vh;
+}
+
 #carousel4, #carousel5, #carousel6{
     margin-left: 3.2vw;
 }
